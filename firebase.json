@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "quantumshield-pqc-system",
+    "site": "techlens-recommendation",
     "public": "frontend/dist",
     "ignore": [
       "firebase.json",
