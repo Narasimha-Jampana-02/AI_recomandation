@@ -1,0 +1,27 @@
+# Node
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+.vite/
+**/.vite/
+
+# Python
+venv/
+**/venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+.env
+**/.env
+
+# OS
+.DS_Store
+**/.DS_Store
+*.log
+**/*.log
+
+# IDE
+.vscode/
+.idea/

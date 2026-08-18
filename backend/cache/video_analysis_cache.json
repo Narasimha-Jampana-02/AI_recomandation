@@ -1,0 +1,3434 @@
+{
+  "d36b4fd14ba5e99d8665d0567d2a6795b8fa57b6772a45e94af10c8f40f4d5fb": {
+    "videoId": "reel_d36b4fd1",
+    "videoHash": "d36b4fd14ba5e99d8665d0567d2a6795b8fa57b6772a45e94af10c8f40f4d5fb",
+    "file_hash": "d36b4fd14ba5e99d8665d0567d2a6795b8fa57b6772a45e94af10c8f40f4d5fb",
+    "metadata": {
+      "duration": 57.6,
+      "width": 478,
+      "height": 850,
+      "fps": 30.0,
+      "frame_count": 1729,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.23,
+    "processing_time_seconds": 0.23,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "video_summary": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "generated_description": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "contentType": "Comedy",
+    "primaryCategory": "Entertainment",
+    "predicted_category": "Entertainment",
+    "secondaryCategories": [
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "topics": [
+      "Entertainment",
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "keywords": [
+      "Entertainment",
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (96%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (85%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (95%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:06",
+        "description": "Visual context setup (Entertainment intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:28",
+        "description": "Core technical demonstration and explanation (Developer Culture, OCR Score: 95%)",
+        "confidence": 0.95
+      },
+      {
+        "timestamp": "00:49",
+        "description": "Synthesis & engineering takeaways (Speech Score: 85%)",
+        "confidence": 0.85
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:06",
+        "description": "Visual context setup (Entertainment intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:28",
+        "description": "Core technical demonstration and explanation (Developer Culture, OCR Score: 95%)",
+        "confidence": 0.95
+      },
+      {
+        "timestamp": "00:49",
+        "description": "Synthesis & engineering takeaways (Speech Score: 85%)",
+        "confidence": 0.85
+      }
+    ],
+    "technicalDepth": 63,
+    "technical_depth": 63,
+    "educationalValue": 83,
+    "educational_value": 83,
+    "entertainmentValue": 95,
+    "entertainment_value": 95,
+    "motivationLevel": 79,
+    "motivation_level": 79,
+    "hypeRisk": 14,
+    "hype_score": 14,
+    "confidence": 90,
+    "confidence_numeric": 90,
+    "confidence_tier": "HIGH",
+    "evidence_scores": {
+      "visual": 96,
+      "ocr": 95,
+      "speech": 85,
+      "semantic": 94
+    },
+    "embedding": [
+      -0.5073882937431335,
+      1.8047764301300049,
+      -4.288671016693115,
+      0.7291766405105591,
+      1.0075666904449463,
+      0.15572069585323334,
+      0.8174290657043457,
+      -0.4087580740451813,
+      -0.2472241073846817,
+      -0.9329257607460022,
+      -0.07303423434495926,
+      0.209899440407753,
+      0.07869282364845276,
+      1.5689582824707031,
+      0.40807971358299255,
+      -0.7892579436302185
+    ]
+  },
+  "c57cee295b4b417b71e31581502a78811450f48b80769529c18dd5b97124661a": {
+    "videoId": "reel_c57cee29",
+    "videoHash": "c57cee295b4b417b71e31581502a78811450f48b80769529c18dd5b97124661a",
+    "file_hash": "c57cee295b4b417b71e31581502a78811450f48b80769529c18dd5b97124661a",
+    "metadata": {
+      "duration": 82.0,
+      "width": 478,
+      "height": 850,
+      "fps": 30.0,
+      "frame_count": 2460,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.25,
+    "processing_time_seconds": 0.25,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "Software development walkthrough demonstrating engineering workflows and syntax patterns (Tech Depth: 81%).",
+    "video_summary": "Software development walkthrough demonstrating engineering workflows and syntax patterns (Tech Depth: 81%).",
+    "generated_description": "Software development walkthrough demonstrating engineering workflows and syntax patterns (Tech Depth: 81%).",
+    "contentType": "Educational",
+    "primaryCategory": "Programming",
+    "predicted_category": "Programming",
+    "secondaryCategories": [
+      "Software Engineering",
+      "Tech Tutorial"
+    ],
+    "topics": [
+      "Programming",
+      "Software Engineering",
+      "Tech Tutorial"
+    ],
+    "keywords": [
+      "Programming",
+      "Software Engineering",
+      "Tech Tutorial"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (88%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (79%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (51%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:09",
+        "description": "Visual context setup (Programming intro, Visual Score: 88%)",
+        "confidence": 0.88
+      },
+      {
+        "timestamp": "00:41",
+        "description": "Core technical demonstration and explanation (Software Engineering, OCR Score: 51%)",
+        "confidence": 0.51
+      },
+      {
+        "timestamp": "01:09",
+        "description": "Synthesis & engineering takeaways (Speech Score: 79%)",
+        "confidence": 0.79
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:09",
+        "description": "Visual context setup (Programming intro, Visual Score: 88%)",
+        "confidence": 0.88
+      },
+      {
+        "timestamp": "00:41",
+        "description": "Core technical demonstration and explanation (Software Engineering, OCR Score: 51%)",
+        "confidence": 0.51
+      },
+      {
+        "timestamp": "01:09",
+        "description": "Synthesis & engineering takeaways (Speech Score: 79%)",
+        "confidence": 0.79
+      }
+    ],
+    "technicalDepth": 81,
+    "technical_depth": 81,
+    "educationalValue": 73,
+    "educational_value": 73,
+    "entertainmentValue": 28,
+    "entertainment_value": 28,
+    "motivationLevel": 48,
+    "motivation_level": 48,
+    "hypeRisk": 2,
+    "hype_score": 2,
+    "confidence": 66,
+    "confidence_numeric": 66,
+    "confidence_tier": "MEDIUM",
+    "evidence_scores": {
+      "visual": 88,
+      "ocr": 51,
+      "speech": 79,
+      "semantic": 74
+    },
+    "embedding": [
+      -0.1717665046453476,
+      0.8455455303192139,
+      -3.578110933303833,
+      -1.1048272848129272,
+      0.860426127910614,
+      -0.031830888241529465,
+      1.3150205612182617,
+      -0.5505238175392151,
+      0.1425887942314148,
+      -0.7991585731506348,
+      0.4202965795993805,
+      -0.3938310742378235,
+      2.176757574081421,
+      1.689026117324829,
+      -0.4204787015914917,
+      -0.2544802725315094
+    ]
+  },
+  "976fdcef9262a12ef0d8962357542ba781a990af0db9b2952f5aa52d1d7af949": {
+    "videoId": "reel_976fdcef",
+    "videoHash": "976fdcef9262a12ef0d8962357542ba781a990af0db9b2952f5aa52d1d7af949",
+    "file_hash": "976fdcef9262a12ef0d8962357542ba781a990af0db9b2952f5aa52d1d7af949",
+    "metadata": {
+      "duration": 14.0,
+      "width": 478,
+      "height": 850,
+      "fps": 30.0,
+      "frame_count": 421,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.16,
+    "processing_time_seconds": 0.16,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "video_summary": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "generated_description": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "contentType": "Comedy",
+    "primaryCategory": "Entertainment",
+    "predicted_category": "Entertainment",
+    "secondaryCategories": [
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "topics": [
+      "Entertainment",
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "keywords": [
+      "Entertainment",
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (82%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (85%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (50%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:01",
+        "description": "Visual context setup (Entertainment intro, Visual Score: 82%)",
+        "confidence": 0.82
+      },
+      {
+        "timestamp": "00:07",
+        "description": "Core technical demonstration and explanation (Developer Culture, OCR Score: 50%)",
+        "confidence": 0.5
+      },
+      {
+        "timestamp": "00:11",
+        "description": "Synthesis & engineering takeaways (Speech Score: 85%)",
+        "confidence": 0.85
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:01",
+        "description": "Visual context setup (Entertainment intro, Visual Score: 82%)",
+        "confidence": 0.82
+      },
+      {
+        "timestamp": "00:07",
+        "description": "Core technical demonstration and explanation (Developer Culture, OCR Score: 50%)",
+        "confidence": 0.5
+      },
+      {
+        "timestamp": "00:11",
+        "description": "Synthesis & engineering takeaways (Speech Score: 85%)",
+        "confidence": 0.85
+      }
+    ],
+    "technicalDepth": 47,
+    "technical_depth": 47,
+    "educationalValue": 54,
+    "educational_value": 54,
+    "entertainmentValue": 95,
+    "entertainment_value": 95,
+    "motivationLevel": 78,
+    "motivation_level": 78,
+    "hypeRisk": 12,
+    "hype_score": 12,
+    "confidence": 65,
+    "confidence_numeric": 65,
+    "confidence_tier": "MEDIUM",
+    "evidence_scores": {
+      "visual": 82,
+      "ocr": 50,
+      "speech": 85,
+      "semantic": 74
+    },
+    "embedding": [
+      -0.5073882937431335,
+      1.8047764301300049,
+      -4.288671016693115,
+      0.7291766405105591,
+      1.0075666904449463,
+      0.15572069585323334,
+      0.8174290657043457,
+      -0.4087580740451813,
+      -0.2472241073846817,
+      -0.9329257607460022,
+      -0.07303423434495926,
+      0.209899440407753,
+      0.07869282364845276,
+      1.5689582824707031,
+      0.40807971358299255,
+      -0.7892579436302185
+    ]
+  },
+  "1ac76aff33f9eb3f59943d51da64e07ca52f2c6832fbf48118fdd8860e549745": {
+    "videoId": "reel_1ac76aff",
+    "videoHash": "1ac76aff33f9eb3f59943d51da64e07ca52f2c6832fbf48118fdd8860e549745",
+    "file_hash": "1ac76aff33f9eb3f59943d51da64e07ca52f2c6832fbf48118fdd8860e549745",
+    "metadata": {
+      "duration": 142.5,
+      "width": 478,
+      "height": 850,
+      "fps": 30.0,
+      "frame_count": 4274,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.26,
+    "processing_time_seconds": 0.26,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 91%).",
+    "video_summary": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 91%).",
+    "generated_description": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 91%).",
+    "contentType": "Educational",
+    "primaryCategory": "DSA",
+    "predicted_category": "DSA",
+    "secondaryCategories": [
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "topics": [
+      "DSA",
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "keywords": [
+      "DSA",
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (90%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (83%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (95%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:17",
+        "description": "Visual context setup (DSA intro, Visual Score: 90%)",
+        "confidence": 0.9
+      },
+      {
+        "timestamp": "01:11",
+        "description": "Core technical demonstration and explanation (Algorithms, OCR Score: 95%)",
+        "confidence": 0.95
+      },
+      {
+        "timestamp": "02:01",
+        "description": "Synthesis & engineering takeaways (Speech Score: 83%)",
+        "confidence": 0.83
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:17",
+        "description": "Visual context setup (DSA intro, Visual Score: 90%)",
+        "confidence": 0.9
+      },
+      {
+        "timestamp": "01:11",
+        "description": "Core technical demonstration and explanation (Algorithms, OCR Score: 95%)",
+        "confidence": 0.95
+      },
+      {
+        "timestamp": "02:01",
+        "description": "Synthesis & engineering takeaways (Speech Score: 83%)",
+        "confidence": 0.83
+      }
+    ],
+    "technicalDepth": 91,
+    "technical_depth": 91,
+    "educationalValue": 79,
+    "educational_value": 79,
+    "entertainmentValue": 48,
+    "entertainment_value": 48,
+    "motivationLevel": 66,
+    "motivation_level": 66,
+    "hypeRisk": 2,
+    "hype_score": 2,
+    "confidence": 87,
+    "confidence_numeric": 87,
+    "confidence_tier": "HIGH",
+    "evidence_scores": {
+      "visual": 90,
+      "ocr": 95,
+      "speech": 83,
+      "semantic": 91
+    },
+    "embedding": [
+      0.9002785682678223,
+      1.721640706062317,
+      -3.0423202514648438,
+      -0.7528319358825684,
+      1.4367142915725708,
+      -0.983396053314209,
+      1.8271785974502563,
+      0.004452594555914402,
+      -0.9118825197219849,
+      -0.2443617284297943,
+      0.14410805702209473,
+      0.7997402548789978,
+      1.7146344184875488,
+      0.9538788795471191,
+      -0.46216312050819397,
+      -0.49158433079719543
+    ]
+  },
+  "5340bd36fdf00932e25fa415f723a9eb2916a4717a7a1821ce8c24b1c5dc418a": {
+    "videoId": "reel_5340bd36",
+    "videoHash": "5340bd36fdf00932e25fa415f723a9eb2916a4717a7a1821ce8c24b1c5dc418a",
+    "file_hash": "5340bd36fdf00932e25fa415f723a9eb2916a4717a7a1821ce8c24b1c5dc418a",
+    "metadata": {
+      "duration": 17.7,
+      "width": 478,
+      "height": 850,
+      "fps": 30.0,
+      "frame_count": 531,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.19,
+    "processing_time_seconds": 0.19,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "Software development walkthrough demonstrating engineering workflows and syntax patterns (Tech Depth: 86%).",
+    "video_summary": "Software development walkthrough demonstrating engineering workflows and syntax patterns (Tech Depth: 86%).",
+    "generated_description": "Software development walkthrough demonstrating engineering workflows and syntax patterns (Tech Depth: 86%).",
+    "contentType": "Educational",
+    "primaryCategory": "Programming",
+    "predicted_category": "Programming",
+    "secondaryCategories": [
+      "Software Engineering",
+      "Tech Tutorial"
+    ],
+    "topics": [
+      "Programming",
+      "Software Engineering",
+      "Tech Tutorial"
+    ],
+    "keywords": [
+      "Programming",
+      "Software Engineering",
+      "Tech Tutorial"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (95%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (83%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (59%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:02",
+        "description": "Visual context setup (Programming intro, Visual Score: 95%)",
+        "confidence": 0.95
+      },
+      {
+        "timestamp": "00:08",
+        "description": "Core technical demonstration and explanation (Software Engineering, OCR Score: 59%)",
+        "confidence": 0.59
+      },
+      {
+        "timestamp": "00:15",
+        "description": "Synthesis & engineering takeaways (Speech Score: 83%)",
+        "confidence": 0.83
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:02",
+        "description": "Visual context setup (Programming intro, Visual Score: 95%)",
+        "confidence": 0.95
+      },
+      {
+        "timestamp": "00:08",
+        "description": "Core technical demonstration and explanation (Software Engineering, OCR Score: 59%)",
+        "confidence": 0.59
+      },
+      {
+        "timestamp": "00:15",
+        "description": "Synthesis & engineering takeaways (Speech Score: 83%)",
+        "confidence": 0.83
+      }
+    ],
+    "technicalDepth": 86,
+    "technical_depth": 86,
+    "educationalValue": 78,
+    "educational_value": 78,
+    "entertainmentValue": 52,
+    "entertainment_value": 52,
+    "motivationLevel": 65,
+    "motivation_level": 65,
+    "hypeRisk": 2,
+    "hype_score": 2,
+    "confidence": 73,
+    "confidence_numeric": 73,
+    "confidence_tier": "MEDIUM",
+    "evidence_scores": {
+      "visual": 95,
+      "ocr": 59,
+      "speech": 83,
+      "semantic": 81
+    },
+    "embedding": [
+      -0.09110888093709946,
+      0.8490491509437561,
+      -3.563001871109009,
+      -1.058709979057312,
+      0.9045042991638184,
+      -0.01492201816290617,
+      1.3296787738800049,
+      -0.5459858775138855,
+      0.134281724691391,
+      -0.7762043476104736,
+      0.3898170590400696,
+      -0.4055941104888916,
+      2.160419225692749,
+      1.6711291074752808,
+      -0.38540589809417725,
+      -0.15496955811977386
+    ]
+  },
+  "62d3c9f238cb6aef2c00f82f681602d73aa4773fcaf1f1801db79e96f35318ea": {
+    "videoId": "reel_62d3c9f2",
+    "videoHash": "62d3c9f238cb6aef2c00f82f681602d73aa4773fcaf1f1801db79e96f35318ea",
+    "file_hash": "62d3c9f238cb6aef2c00f82f681602d73aa4773fcaf1f1801db79e96f35318ea",
+    "metadata": {
+      "duration": 9.1,
+      "width": 478,
+      "height": 850,
+      "fps": 30.0,
+      "frame_count": 274,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.19,
+    "processing_time_seconds": 0.19,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 94%).",
+    "video_summary": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 94%).",
+    "generated_description": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 94%).",
+    "contentType": "Educational",
+    "primaryCategory": "DSA",
+    "predicted_category": "DSA",
+    "secondaryCategories": [
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "topics": [
+      "DSA",
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "keywords": [
+      "DSA",
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (89%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (81%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (77%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:01",
+        "description": "Visual context setup (DSA intro, Visual Score: 89%)",
+        "confidence": 0.89
+      },
+      {
+        "timestamp": "00:04",
+        "description": "Core technical demonstration and explanation (Algorithms, OCR Score: 77%)",
+        "confidence": 0.77
+      },
+      {
+        "timestamp": "00:07",
+        "description": "Synthesis & engineering takeaways (Speech Score: 81%)",
+        "confidence": 0.81
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:01",
+        "description": "Visual context setup (DSA intro, Visual Score: 89%)",
+        "confidence": 0.89
+      },
+      {
+        "timestamp": "00:04",
+        "description": "Core technical demonstration and explanation (Algorithms, OCR Score: 77%)",
+        "confidence": 0.77
+      },
+      {
+        "timestamp": "00:07",
+        "description": "Synthesis & engineering takeaways (Speech Score: 81%)",
+        "confidence": 0.81
+      }
+    ],
+    "technicalDepth": 94,
+    "technical_depth": 94,
+    "educationalValue": 81,
+    "educational_value": 81,
+    "entertainmentValue": 36,
+    "entertainment_value": 36,
+    "motivationLevel": 57,
+    "motivation_level": 57,
+    "hypeRisk": 2,
+    "hype_score": 2,
+    "confidence": 80,
+    "confidence_numeric": 80,
+    "confidence_tier": "HIGH",
+    "evidence_scores": {
+      "visual": 89,
+      "ocr": 77,
+      "speech": 81,
+      "semantic": 84
+    },
+    "embedding": [
+      0.8884807825088501,
+      1.7236820459365845,
+      -3.075711965560913,
+      -0.7425053119659424,
+      1.4335421323776245,
+      -0.9637765884399414,
+      1.8438202142715454,
+      0.009224703535437584,
+      -0.8964588642120361,
+      -0.2324250042438507,
+      0.10384588688611984,
+      0.7563908696174622,
+      1.742663860321045,
+      0.9811482429504395,
+      -0.4338943064212799,
+      -0.4901866316795349
+    ]
+  },
+  "786d65632cbf9d6ecbc1230d6f300cd05b4185adb5cddf65c506197c59a0d781": {
+    "videoId": "reel_786d6563",
+    "videoHash": "786d65632cbf9d6ecbc1230d6f300cd05b4185adb5cddf65c506197c59a0d781",
+    "file_hash": "786d65632cbf9d6ecbc1230d6f300cd05b4185adb5cddf65c506197c59a0d781",
+    "metadata": {
+      "duration": 14.8,
+      "width": 478,
+      "height": 850,
+      "fps": 30.0,
+      "frame_count": 443,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.19,
+    "processing_time_seconds": 0.19,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 87%).",
+    "video_summary": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 87%).",
+    "generated_description": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 87%).",
+    "contentType": "Educational",
+    "primaryCategory": "DSA",
+    "predicted_category": "DSA",
+    "secondaryCategories": [
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "topics": [
+      "DSA",
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "keywords": [
+      "DSA",
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (82%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (81%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (93%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:01",
+        "description": "Visual context setup (DSA intro, Visual Score: 82%)",
+        "confidence": 0.82
+      },
+      {
+        "timestamp": "00:07",
+        "description": "Core technical demonstration and explanation (Algorithms, OCR Score: 93%)",
+        "confidence": 0.93
+      },
+      {
+        "timestamp": "00:12",
+        "description": "Synthesis & engineering takeaways (Speech Score: 81%)",
+        "confidence": 0.81
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:01",
+        "description": "Visual context setup (DSA intro, Visual Score: 82%)",
+        "confidence": 0.82
+      },
+      {
+        "timestamp": "00:07",
+        "description": "Core technical demonstration and explanation (Algorithms, OCR Score: 93%)",
+        "confidence": 0.93
+      },
+      {
+        "timestamp": "00:12",
+        "description": "Synthesis & engineering takeaways (Speech Score: 81%)",
+        "confidence": 0.81
+      }
+    ],
+    "technicalDepth": 87,
+    "technical_depth": 87,
+    "educationalValue": 78,
+    "educational_value": 78,
+    "entertainmentValue": 35,
+    "entertainment_value": 35,
+    "motivationLevel": 58,
+    "motivation_level": 58,
+    "hypeRisk": 2,
+    "hype_score": 2,
+    "confidence": 83,
+    "confidence_numeric": 83,
+    "confidence_tier": "HIGH",
+    "evidence_scores": {
+      "visual": 82,
+      "ocr": 93,
+      "speech": 81,
+      "semantic": 87
+    },
+    "embedding": [
+      0.8830931782722473,
+      1.7475906610488892,
+      -3.055737257003784,
+      -0.7687643766403198,
+      1.450826644897461,
+      -0.9581120610237122,
+      1.837444543838501,
+      -0.03756839036941528,
+      -0.8916475772857666,
+      -0.2411484569311142,
+      0.1414930820465088,
+      0.7839146256446838,
+      1.718428134918213,
+      0.9625505208969116,
+      -0.4323295056819916,
+      -0.4906543791294098
+    ]
+  },
+  "8141a8b2c3ef60b6e7493121770a5738b7cce192d9c5b9486a6c2336bada9c21": {
+    "videoId": "reel_8141a8b2",
+    "videoHash": "8141a8b2c3ef60b6e7493121770a5738b7cce192d9c5b9486a6c2336bada9c21",
+    "file_hash": "8141a8b2c3ef60b6e7493121770a5738b7cce192d9c5b9486a6c2336bada9c21",
+    "metadata": {
+      "duration": 12.1,
+      "width": 478,
+      "height": 850,
+      "fps": 30.0,
+      "frame_count": 362,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.2,
+    "processing_time_seconds": 0.2,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "Inspirational tech career monologue emphasizing deliberate practice, engineering discipline, and mindset resilience (Motivation: 70%).",
+    "video_summary": "Inspirational tech career monologue emphasizing deliberate practice, engineering discipline, and mindset resilience (Motivation: 70%).",
+    "generated_description": "Inspirational tech career monologue emphasizing deliberate practice, engineering discipline, and mindset resilience (Motivation: 70%).",
+    "contentType": "Motivational",
+    "primaryCategory": "Motivational",
+    "predicted_category": "Motivational",
+    "secondaryCategories": [
+      "Career Mindset",
+      "Consistency",
+      "Engineering Growth"
+    ],
+    "topics": [
+      "Motivational",
+      "Career Mindset",
+      "Consistency",
+      "Engineering Growth"
+    ],
+    "keywords": [
+      "Motivational",
+      "Career Mindset",
+      "Consistency",
+      "Engineering Growth"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (96%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (84%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (61%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:01",
+        "description": "Visual context setup (Motivational intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:06",
+        "description": "Core technical demonstration and explanation (Career Mindset, OCR Score: 61%)",
+        "confidence": 0.61
+      },
+      {
+        "timestamp": "00:10",
+        "description": "Synthesis & engineering takeaways (Speech Score: 84%)",
+        "confidence": 0.84
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:01",
+        "description": "Visual context setup (Motivational intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:06",
+        "description": "Core technical demonstration and explanation (Career Mindset, OCR Score: 61%)",
+        "confidence": 0.61
+      },
+      {
+        "timestamp": "00:10",
+        "description": "Synthesis & engineering takeaways (Speech Score: 84%)",
+        "confidence": 0.84
+      }
+    ],
+    "technicalDepth": 85,
+    "technical_depth": 85,
+    "educationalValue": 78,
+    "educational_value": 78,
+    "entertainmentValue": 88,
+    "entertainment_value": 88,
+    "motivationLevel": 70,
+    "motivation_level": 70,
+    "hypeRisk": 2,
+    "hype_score": 2,
+    "confidence": 74,
+    "confidence_numeric": 74,
+    "confidence_tier": "MEDIUM",
+    "evidence_scores": {
+      "visual": 96,
+      "ocr": 61,
+      "speech": 84,
+      "semantic": 82
+    },
+    "embedding": [
+      -0.644408106803894,
+      0.6854484677314758,
+      -4.0762410163879395,
+      -0.22278277575969696,
+      1.1961499452590942,
+      0.34745895862579346,
+      0.8706566691398621,
+      -0.503193199634552,
+      0.5902102589607239,
+      -0.02562737464904785,
+      -0.9774439930915833,
+      0.10240364074707031,
+      0.7906116843223572,
+      1.6511331796646118,
+      0.11396201699972153,
+      1.218652606010437
+    ]
+  },
+  "a8cabe3d922ea67632d36c5b4e728d70fb11a3423e69ab54287a1c0e78020eef": {
+    "videoId": "reel_a8cabe3d",
+    "videoHash": "a8cabe3d922ea67632d36c5b4e728d70fb11a3423e69ab54287a1c0e78020eef",
+    "file_hash": "a8cabe3d922ea67632d36c5b4e728d70fb11a3423e69ab54287a1c0e78020eef",
+    "metadata": {
+      "duration": 40.6,
+      "width": 368,
+      "height": 464,
+      "fps": 30.0,
+      "frame_count": 1219,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.2,
+    "processing_time_seconds": 0.2,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "video_summary": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "generated_description": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "contentType": "Comedy",
+    "primaryCategory": "Entertainment",
+    "predicted_category": "Entertainment",
+    "secondaryCategories": [
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "topics": [
+      "Entertainment",
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "keywords": [
+      "Entertainment",
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (96%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (86%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (83%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:04",
+        "description": "Visual context setup (Entertainment intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:20",
+        "description": "Core technical demonstration and explanation (Developer Culture, OCR Score: 83%)",
+        "confidence": 0.83
+      },
+      {
+        "timestamp": "00:34",
+        "description": "Synthesis & engineering takeaways (Speech Score: 86%)",
+        "confidence": 0.86
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:04",
+        "description": "Visual context setup (Entertainment intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:20",
+        "description": "Core technical demonstration and explanation (Developer Culture, OCR Score: 83%)",
+        "confidence": 0.83
+      },
+      {
+        "timestamp": "00:34",
+        "description": "Synthesis & engineering takeaways (Speech Score: 86%)",
+        "confidence": 0.86
+      }
+    ],
+    "technicalDepth": 61,
+    "technical_depth": 61,
+    "educationalValue": 81,
+    "educational_value": 81,
+    "entertainmentValue": 95,
+    "entertainment_value": 95,
+    "motivationLevel": 80,
+    "motivation_level": 80,
+    "hypeRisk": 15,
+    "hype_score": 15,
+    "confidence": 86,
+    "confidence_numeric": 86,
+    "confidence_tier": "HIGH",
+    "evidence_scores": {
+      "visual": 96,
+      "ocr": 83,
+      "speech": 86,
+      "semantic": 90
+    },
+    "embedding": [
+      -0.5073882937431335,
+      1.8047764301300049,
+      -4.288671016693115,
+      0.7291766405105591,
+      1.0075666904449463,
+      0.15572069585323334,
+      0.8174290657043457,
+      -0.4087580740451813,
+      -0.2472241073846817,
+      -0.9329257607460022,
+      -0.07303423434495926,
+      0.209899440407753,
+      0.07869282364845276,
+      1.5689582824707031,
+      0.40807971358299255,
+      -0.7892579436302185
+    ]
+  },
+  "ef1a315c359019c7565385cbd5bc7137c3870bcbded80631ec5e5d4f059c6d12": {
+    "videoId": "reel_ef1a315c",
+    "videoHash": "ef1a315c359019c7565385cbd5bc7137c3870bcbded80631ec5e5d4f059c6d12",
+    "file_hash": "ef1a315c359019c7565385cbd5bc7137c3870bcbded80631ec5e5d4f059c6d12",
+    "metadata": {
+      "duration": 13.1,
+      "width": 478,
+      "height": 850,
+      "fps": 30.0,
+      "frame_count": 392,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.18,
+    "processing_time_seconds": 0.18,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "Software development walkthrough demonstrating engineering workflows and syntax patterns (Tech Depth: 96%).",
+    "video_summary": "Software development walkthrough demonstrating engineering workflows and syntax patterns (Tech Depth: 96%).",
+    "generated_description": "Software development walkthrough demonstrating engineering workflows and syntax patterns (Tech Depth: 96%).",
+    "contentType": "Educational",
+    "primaryCategory": "Programming",
+    "predicted_category": "Programming",
+    "secondaryCategories": [
+      "Software Engineering",
+      "Tech Tutorial"
+    ],
+    "topics": [
+      "Programming",
+      "Software Engineering",
+      "Tech Tutorial"
+    ],
+    "keywords": [
+      "Programming",
+      "Software Engineering",
+      "Tech Tutorial"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (83%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (75%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (64%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:01",
+        "description": "Visual context setup (Programming intro, Visual Score: 83%)",
+        "confidence": 0.83
+      },
+      {
+        "timestamp": "00:06",
+        "description": "Core technical demonstration and explanation (Software Engineering, OCR Score: 64%)",
+        "confidence": 0.64
+      },
+      {
+        "timestamp": "00:11",
+        "description": "Synthesis & engineering takeaways (Speech Score: 75%)",
+        "confidence": 0.75
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:01",
+        "description": "Visual context setup (Programming intro, Visual Score: 83%)",
+        "confidence": 0.83
+      },
+      {
+        "timestamp": "00:06",
+        "description": "Core technical demonstration and explanation (Software Engineering, OCR Score: 64%)",
+        "confidence": 0.64
+      },
+      {
+        "timestamp": "00:11",
+        "description": "Synthesis & engineering takeaways (Speech Score: 75%)",
+        "confidence": 0.75
+      }
+    ],
+    "technicalDepth": 96,
+    "technical_depth": 96,
+    "educationalValue": 83,
+    "educational_value": 83,
+    "entertainmentValue": 21,
+    "entertainment_value": 21,
+    "motivationLevel": 27,
+    "motivation_level": 27,
+    "hypeRisk": 2,
+    "hype_score": 2,
+    "confidence": 71,
+    "confidence_numeric": 71,
+    "confidence_tier": "MEDIUM",
+    "evidence_scores": {
+      "visual": 83,
+      "ocr": 64,
+      "speech": 75,
+      "semantic": 76
+    },
+    "embedding": [
+      -0.05855652317404747,
+      0.846397340297699,
+      -3.601799726486206,
+      -1.0739691257476807,
+      0.8848574161529541,
+      -0.09795567393302917,
+      1.3234293460845947,
+      -0.5330979228019714,
+      0.03941190242767334,
+      -0.8535481095314026,
+      0.34647825360298157,
+      -0.35245582461357117,
+      2.1637392044067383,
+      1.666724681854248,
+      -0.3373018205165863,
+      -0.1371707320213318
+    ]
+  },
+  "b37600604ee198d6b6b8935e12a4ef249b2e97d348b75647ecb9fe2fda65d23b": {
+    "videoId": "reel_b3760060",
+    "videoHash": "b37600604ee198d6b6b8935e12a4ef249b2e97d348b75647ecb9fe2fda65d23b",
+    "file_hash": "b37600604ee198d6b6b8935e12a4ef249b2e97d348b75647ecb9fe2fda65d23b",
+    "metadata": {
+      "duration": 14.6,
+      "width": 478,
+      "height": 850,
+      "fps": 30.0,
+      "frame_count": 438,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.19,
+    "processing_time_seconds": 0.19,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 90%).",
+    "video_summary": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 90%).",
+    "generated_description": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 90%).",
+    "contentType": "Educational",
+    "primaryCategory": "DSA",
+    "predicted_category": "DSA",
+    "secondaryCategories": [
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "topics": [
+      "DSA",
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "keywords": [
+      "DSA",
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (95%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (80%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (80%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:01",
+        "description": "Visual context setup (DSA intro, Visual Score: 95%)",
+        "confidence": 0.95
+      },
+      {
+        "timestamp": "00:07",
+        "description": "Core technical demonstration and explanation (Algorithms, OCR Score: 80%)",
+        "confidence": 0.8
+      },
+      {
+        "timestamp": "00:12",
+        "description": "Synthesis & engineering takeaways (Speech Score: 80%)",
+        "confidence": 0.8
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:01",
+        "description": "Visual context setup (DSA intro, Visual Score: 95%)",
+        "confidence": 0.95
+      },
+      {
+        "timestamp": "00:07",
+        "description": "Core technical demonstration and explanation (Algorithms, OCR Score: 80%)",
+        "confidence": 0.8
+      },
+      {
+        "timestamp": "00:12",
+        "description": "Synthesis & engineering takeaways (Speech Score: 80%)",
+        "confidence": 0.8
+      }
+    ],
+    "technicalDepth": 90,
+    "technical_depth": 90,
+    "educationalValue": 80,
+    "educational_value": 80,
+    "entertainmentValue": 43,
+    "entertainment_value": 43,
+    "motivationLevel": 54,
+    "motivation_level": 54,
+    "hypeRisk": 2,
+    "hype_score": 2,
+    "confidence": 82,
+    "confidence_numeric": 82,
+    "confidence_tier": "HIGH",
+    "evidence_scores": {
+      "visual": 95,
+      "ocr": 80,
+      "speech": 80,
+      "semantic": 87
+    },
+    "embedding": [
+      0.8960114121437073,
+      1.7595670223236084,
+      -3.0702672004699707,
+      -0.7542585730552673,
+      1.418270230293274,
+      -1.0063971281051636,
+      1.8141462802886963,
+      0.02641269564628601,
+      -0.9002379179000854,
+      -0.21796993911266327,
+      0.1083357185125351,
+      0.8372169137001038,
+      1.7098075151443481,
+      0.9493439793586731,
+      -0.4421486556529999,
+      -0.5173351764678955
+    ]
+  },
+  "c9507609315b7f6f8886be0ca5d666cbf8058a29bcb9194334a438a89f02c8b5": {
+    "videoId": "reel_c9507609",
+    "videoHash": "c9507609315b7f6f8886be0ca5d666cbf8058a29bcb9194334a438a89f02c8b5",
+    "file_hash": "c9507609315b7f6f8886be0ca5d666cbf8058a29bcb9194334a438a89f02c8b5",
+    "metadata": {
+      "duration": 28.4,
+      "width": 848,
+      "height": 478,
+      "fps": 30.0,
+      "frame_count": 851,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.25,
+    "processing_time_seconds": 0.25,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "video_summary": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "generated_description": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "contentType": "Comedy",
+    "primaryCategory": "Entertainment",
+    "predicted_category": "Entertainment",
+    "secondaryCategories": [
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "topics": [
+      "Entertainment",
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "keywords": [
+      "Entertainment",
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (96%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (79%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (67%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:03",
+        "description": "Visual context setup (Entertainment intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:14",
+        "description": "Core technical demonstration and explanation (Developer Culture, OCR Score: 67%)",
+        "confidence": 0.67
+      },
+      {
+        "timestamp": "00:24",
+        "description": "Synthesis & engineering takeaways (Speech Score: 79%)",
+        "confidence": 0.79
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:03",
+        "description": "Visual context setup (Entertainment intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:14",
+        "description": "Core technical demonstration and explanation (Developer Culture, OCR Score: 67%)",
+        "confidence": 0.67
+      },
+      {
+        "timestamp": "00:24",
+        "description": "Synthesis & engineering takeaways (Speech Score: 79%)",
+        "confidence": 0.79
+      }
+    ],
+    "technicalDepth": 74,
+    "technical_depth": 74,
+    "educationalValue": 75,
+    "educational_value": 75,
+    "entertainmentValue": 95,
+    "entertainment_value": 95,
+    "motivationLevel": 45,
+    "motivation_level": 45,
+    "hypeRisk": 2,
+    "hype_score": 2,
+    "confidence": 75,
+    "confidence_numeric": 75,
+    "confidence_tier": "MEDIUM",
+    "evidence_scores": {
+      "visual": 96,
+      "ocr": 67,
+      "speech": 79,
+      "semantic": 82
+    },
+    "embedding": [
+      -0.5073882937431335,
+      1.8047764301300049,
+      -4.288671016693115,
+      0.7291766405105591,
+      1.0075666904449463,
+      0.15572069585323334,
+      0.8174290657043457,
+      -0.4087580740451813,
+      -0.2472241073846817,
+      -0.9329257607460022,
+      -0.07303423434495926,
+      0.209899440407753,
+      0.07869282364845276,
+      1.5689582824707031,
+      0.40807971358299255,
+      -0.7892579436302185
+    ]
+  },
+  "2d0592458adea85b64ea1ff06906e77714a3a5a9e826656db07efdac7d40d9d7": {
+    "videoId": "reel_2d059245",
+    "videoHash": "2d0592458adea85b64ea1ff06906e77714a3a5a9e826656db07efdac7d40d9d7",
+    "file_hash": "2d0592458adea85b64ea1ff06906e77714a3a5a9e826656db07efdac7d40d9d7",
+    "metadata": {
+      "duration": 19.9,
+      "width": 476,
+      "height": 848,
+      "fps": 30.0,
+      "frame_count": 598,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.21,
+    "processing_time_seconds": 0.21,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 94%).",
+    "video_summary": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 94%).",
+    "generated_description": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 94%).",
+    "contentType": "Educational",
+    "primaryCategory": "DSA",
+    "predicted_category": "DSA",
+    "secondaryCategories": [
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "topics": [
+      "DSA",
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "keywords": [
+      "DSA",
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (96%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (81%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (70%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:02",
+        "description": "Visual context setup (DSA intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:09",
+        "description": "Core technical demonstration and explanation (Algorithms, OCR Score: 70%)",
+        "confidence": 0.7
+      },
+      {
+        "timestamp": "00:16",
+        "description": "Synthesis & engineering takeaways (Speech Score: 81%)",
+        "confidence": 0.81
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:02",
+        "description": "Visual context setup (DSA intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:09",
+        "description": "Core technical demonstration and explanation (Algorithms, OCR Score: 70%)",
+        "confidence": 0.7
+      },
+      {
+        "timestamp": "00:16",
+        "description": "Synthesis & engineering takeaways (Speech Score: 81%)",
+        "confidence": 0.81
+      }
+    ],
+    "technicalDepth": 94,
+    "technical_depth": 94,
+    "educationalValue": 83,
+    "educational_value": 83,
+    "entertainmentValue": 74,
+    "entertainment_value": 74,
+    "motivationLevel": 56,
+    "motivation_level": 56,
+    "hypeRisk": 2,
+    "hype_score": 2,
+    "confidence": 78,
+    "confidence_numeric": 78,
+    "confidence_tier": "MEDIUM",
+    "evidence_scores": {
+      "visual": 96,
+      "ocr": 70,
+      "speech": 81,
+      "semantic": 84
+    },
+    "embedding": [
+      0.8884807825088501,
+      1.7236820459365845,
+      -3.075711965560913,
+      -0.7425053119659424,
+      1.4335421323776245,
+      -0.9637765884399414,
+      1.8438202142715454,
+      0.009224703535437584,
+      -0.8964588642120361,
+      -0.2324250042438507,
+      0.10384588688611984,
+      0.7563908696174622,
+      1.742663860321045,
+      0.9811482429504395,
+      -0.4338943064212799,
+      -0.4901866316795349
+    ]
+  },
+  "4b13f8cb4fe72b28625a4d05ecb132228a1d25abac83d4b3739aeb64ac997904": {
+    "videoId": "reel_4b13f8cb",
+    "videoHash": "4b13f8cb4fe72b28625a4d05ecb132228a1d25abac83d4b3739aeb64ac997904",
+    "file_hash": "4b13f8cb4fe72b28625a4d05ecb132228a1d25abac83d4b3739aeb64ac997904",
+    "metadata": {
+      "duration": 17.0,
+      "width": 496,
+      "height": 368,
+      "fps": 30.0,
+      "frame_count": 511,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.2,
+    "processing_time_seconds": 0.2,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "video_summary": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "generated_description": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "contentType": "Comedy",
+    "primaryCategory": "Entertainment",
+    "predicted_category": "Entertainment",
+    "secondaryCategories": [
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "topics": [
+      "Entertainment",
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "keywords": [
+      "Entertainment",
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (96%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (84%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (91%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:02",
+        "description": "Visual context setup (Entertainment intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:08",
+        "description": "Core technical demonstration and explanation (Developer Culture, OCR Score: 91%)",
+        "confidence": 0.91
+      },
+      {
+        "timestamp": "00:14",
+        "description": "Synthesis & engineering takeaways (Speech Score: 84%)",
+        "confidence": 0.84
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:02",
+        "description": "Visual context setup (Entertainment intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:08",
+        "description": "Core technical demonstration and explanation (Developer Culture, OCR Score: 91%)",
+        "confidence": 0.91
+      },
+      {
+        "timestamp": "00:14",
+        "description": "Synthesis & engineering takeaways (Speech Score: 84%)",
+        "confidence": 0.84
+      }
+    ],
+    "technicalDepth": 72,
+    "technical_depth": 72,
+    "educationalValue": 75,
+    "educational_value": 75,
+    "entertainmentValue": 95,
+    "entertainment_value": 95,
+    "motivationLevel": 74,
+    "motivation_level": 74,
+    "hypeRisk": 16,
+    "hype_score": 16,
+    "confidence": 88,
+    "confidence_numeric": 88,
+    "confidence_tier": "HIGH",
+    "evidence_scores": {
+      "visual": 96,
+      "ocr": 91,
+      "speech": 84,
+      "semantic": 92
+    },
+    "embedding": [
+      -0.5073882937431335,
+      1.8047764301300049,
+      -4.288671016693115,
+      0.7291766405105591,
+      1.0075666904449463,
+      0.15572069585323334,
+      0.8174290657043457,
+      -0.4087580740451813,
+      -0.2472241073846817,
+      -0.9329257607460022,
+      -0.07303423434495926,
+      0.209899440407753,
+      0.07869282364845276,
+      1.5689582824707031,
+      0.40807971358299255,
+      -0.7892579436302185
+    ]
+  },
+  "bd2e33656b3b38adcb0d8e6440415d01f1563dcd732e89afe10856a845772cd8": {
+    "videoId": "reel_bd2e3365",
+    "videoHash": "bd2e33656b3b38adcb0d8e6440415d01f1563dcd732e89afe10856a845772cd8",
+    "file_hash": "bd2e33656b3b38adcb0d8e6440415d01f1563dcd732e89afe10856a845772cd8",
+    "metadata": {
+      "duration": 19.4,
+      "width": 848,
+      "height": 476,
+      "fps": 30.0,
+      "frame_count": 581,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.18,
+    "processing_time_seconds": 0.18,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "video_summary": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "generated_description": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "contentType": "Comedy",
+    "primaryCategory": "Entertainment",
+    "predicted_category": "Entertainment",
+    "secondaryCategories": [
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "topics": [
+      "Entertainment",
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "keywords": [
+      "Entertainment",
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (96%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (77%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (50%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:02",
+        "description": "Visual context setup (Entertainment intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:09",
+        "description": "Core technical demonstration and explanation (Developer Culture, OCR Score: 50%)",
+        "confidence": 0.5
+      },
+      {
+        "timestamp": "00:16",
+        "description": "Synthesis & engineering takeaways (Speech Score: 77%)",
+        "confidence": 0.77
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:02",
+        "description": "Visual context setup (Entertainment intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:09",
+        "description": "Core technical demonstration and explanation (Developer Culture, OCR Score: 50%)",
+        "confidence": 0.5
+      },
+      {
+        "timestamp": "00:16",
+        "description": "Synthesis & engineering takeaways (Speech Score: 77%)",
+        "confidence": 0.77
+      }
+    ],
+    "technicalDepth": 74,
+    "technical_depth": 74,
+    "educationalValue": 70,
+    "educational_value": 70,
+    "entertainmentValue": 95,
+    "entertainment_value": 95,
+    "motivationLevel": 37,
+    "motivation_level": 37,
+    "hypeRisk": 2,
+    "hype_score": 2,
+    "confidence": 66,
+    "confidence_numeric": 66,
+    "confidence_tier": "MEDIUM",
+    "evidence_scores": {
+      "visual": 96,
+      "ocr": 50,
+      "speech": 77,
+      "semantic": 76
+    },
+    "embedding": [
+      -0.5073882937431335,
+      1.8047764301300049,
+      -4.288671016693115,
+      0.7291766405105591,
+      1.0075666904449463,
+      0.15572069585323334,
+      0.8174290657043457,
+      -0.4087580740451813,
+      -0.2472241073846817,
+      -0.9329257607460022,
+      -0.07303423434495926,
+      0.209899440407753,
+      0.07869282364845276,
+      1.5689582824707031,
+      0.40807971358299255,
+      -0.7892579436302185
+    ]
+  },
+  "5bb0ffad080f5918668b6919a36d675088448bc37475255a004f883b997a1b99": {
+    "videoId": "reel_5bb0ffad",
+    "videoHash": "5bb0ffad080f5918668b6919a36d675088448bc37475255a004f883b997a1b99",
+    "file_hash": "5bb0ffad080f5918668b6919a36d675088448bc37475255a004f883b997a1b99",
+    "metadata": {
+      "duration": 46.8,
+      "width": 478,
+      "height": 850,
+      "fps": 30.0,
+      "frame_count": 1404,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.3,
+    "processing_time_seconds": 0.3,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "video_summary": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "generated_description": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "contentType": "Comedy",
+    "primaryCategory": "Entertainment",
+    "predicted_category": "Entertainment",
+    "secondaryCategories": [
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "topics": [
+      "Entertainment",
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "keywords": [
+      "Entertainment",
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (96%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (77%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (58%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:05",
+        "description": "Visual context setup (Entertainment intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:23",
+        "description": "Core technical demonstration and explanation (Developer Culture, OCR Score: 58%)",
+        "confidence": 0.58
+      },
+      {
+        "timestamp": "00:39",
+        "description": "Synthesis & engineering takeaways (Speech Score: 77%)",
+        "confidence": 0.77
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:05",
+        "description": "Visual context setup (Entertainment intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:23",
+        "description": "Core technical demonstration and explanation (Developer Culture, OCR Score: 58%)",
+        "confidence": 0.58
+      },
+      {
+        "timestamp": "00:39",
+        "description": "Synthesis & engineering takeaways (Speech Score: 77%)",
+        "confidence": 0.77
+      }
+    ],
+    "technicalDepth": 65,
+    "technical_depth": 65,
+    "educationalValue": 82,
+    "educational_value": 82,
+    "entertainmentValue": 95,
+    "entertainment_value": 95,
+    "motivationLevel": 38,
+    "motivation_level": 38,
+    "hypeRisk": 2,
+    "hype_score": 2,
+    "confidence": 70,
+    "confidence_numeric": 70,
+    "confidence_tier": "MEDIUM",
+    "evidence_scores": {
+      "visual": 96,
+      "ocr": 58,
+      "speech": 77,
+      "semantic": 79
+    },
+    "embedding": [
+      -0.5073882937431335,
+      1.8047764301300049,
+      -4.288671016693115,
+      0.7291766405105591,
+      1.0075666904449463,
+      0.15572069585323334,
+      0.8174290657043457,
+      -0.4087580740451813,
+      -0.2472241073846817,
+      -0.9329257607460022,
+      -0.07303423434495926,
+      0.209899440407753,
+      0.07869282364845276,
+      1.5689582824707031,
+      0.40807971358299255,
+      -0.7892579436302185
+    ]
+  },
+  "ef7a93d282f8c2df96605fc4eeeb6ab31a121c0d773fe7f77690dfd525ec3d0a": {
+    "videoId": "reel_ef7a93d2",
+    "videoHash": "ef7a93d282f8c2df96605fc4eeeb6ab31a121c0d773fe7f77690dfd525ec3d0a",
+    "file_hash": "ef7a93d282f8c2df96605fc4eeeb6ab31a121c0d773fe7f77690dfd525ec3d0a",
+    "metadata": {
+      "duration": 11.7,
+      "width": 478,
+      "height": 850,
+      "fps": 30.0,
+      "frame_count": 351,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.23,
+    "processing_time_seconds": 0.23,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 89%).",
+    "video_summary": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 89%).",
+    "generated_description": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 89%).",
+    "contentType": "Educational",
+    "primaryCategory": "DSA",
+    "predicted_category": "DSA",
+    "secondaryCategories": [
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "topics": [
+      "DSA",
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "keywords": [
+      "DSA",
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (96%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (82%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (81%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:01",
+        "description": "Visual context setup (DSA intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:05",
+        "description": "Core technical demonstration and explanation (Algorithms, OCR Score: 81%)",
+        "confidence": 0.81
+      },
+      {
+        "timestamp": "00:09",
+        "description": "Synthesis & engineering takeaways (Speech Score: 82%)",
+        "confidence": 0.82
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:01",
+        "description": "Visual context setup (DSA intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:05",
+        "description": "Core technical demonstration and explanation (Algorithms, OCR Score: 81%)",
+        "confidence": 0.81
+      },
+      {
+        "timestamp": "00:09",
+        "description": "Synthesis & engineering takeaways (Speech Score: 82%)",
+        "confidence": 0.82
+      }
+    ],
+    "technicalDepth": 89,
+    "technical_depth": 89,
+    "educationalValue": 78,
+    "educational_value": 78,
+    "entertainmentValue": 54,
+    "entertainment_value": 54,
+    "motivationLevel": 61,
+    "motivation_level": 61,
+    "hypeRisk": 2,
+    "hype_score": 2,
+    "confidence": 83,
+    "confidence_numeric": 83,
+    "confidence_tier": "HIGH",
+    "evidence_scores": {
+      "visual": 96,
+      "ocr": 81,
+      "speech": 82,
+      "semantic": 88
+    },
+    "embedding": [
+      0.8863142132759094,
+      1.742575764656067,
+      -3.05132794380188,
+      -0.763525128364563,
+      1.4374955892562866,
+      -0.9787286520004272,
+      1.844423770904541,
+      -0.018540089949965477,
+      -0.9015632271766663,
+      -0.24203132092952728,
+      0.13199980556964874,
+      0.7937757968902588,
+      1.7298319339752197,
+      0.9600548148155212,
+      -0.42853838205337524,
+      -0.5140952467918396
+    ]
+  },
+  "34dabad7ba4d8e92505074dea5f0be1d8de0356cc9471bf2d767de7f7aef5d51": {
+    "videoId": "reel_34dabad7",
+    "videoHash": "34dabad7ba4d8e92505074dea5f0be1d8de0356cc9471bf2d767de7f7aef5d51",
+    "file_hash": "34dabad7ba4d8e92505074dea5f0be1d8de0356cc9471bf2d767de7f7aef5d51",
+    "metadata": {
+      "duration": 38.5,
+      "width": 474,
+      "height": 848,
+      "fps": 30.0,
+      "frame_count": 1156,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.18,
+    "processing_time_seconds": 0.18,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "Inspirational tech career monologue emphasizing deliberate practice, engineering discipline, and mindset resilience (Motivation: 91%).",
+    "video_summary": "Inspirational tech career monologue emphasizing deliberate practice, engineering discipline, and mindset resilience (Motivation: 91%).",
+    "generated_description": "Inspirational tech career monologue emphasizing deliberate practice, engineering discipline, and mindset resilience (Motivation: 91%).",
+    "contentType": "Motivational",
+    "primaryCategory": "Motivational",
+    "predicted_category": "Motivational",
+    "secondaryCategories": [
+      "Career Mindset",
+      "Consistency",
+      "Engineering Growth"
+    ],
+    "topics": [
+      "Motivational",
+      "Career Mindset",
+      "Consistency",
+      "Engineering Growth"
+    ],
+    "keywords": [
+      "Motivational",
+      "Career Mindset",
+      "Consistency",
+      "Engineering Growth"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (96%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (88%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (50%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:04",
+        "description": "Visual context setup (Motivational intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:19",
+        "description": "Core technical demonstration and explanation (Career Mindset, OCR Score: 50%)",
+        "confidence": 0.5
+      },
+      {
+        "timestamp": "00:32",
+        "description": "Synthesis & engineering takeaways (Speech Score: 88%)",
+        "confidence": 0.88
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:04",
+        "description": "Visual context setup (Motivational intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:19",
+        "description": "Core technical demonstration and explanation (Career Mindset, OCR Score: 50%)",
+        "confidence": 0.5
+      },
+      {
+        "timestamp": "00:32",
+        "description": "Synthesis & engineering takeaways (Speech Score: 88%)",
+        "confidence": 0.88
+      }
+    ],
+    "technicalDepth": 71,
+    "technical_depth": 71,
+    "educationalValue": 64,
+    "educational_value": 64,
+    "entertainmentValue": 74,
+    "entertainment_value": 74,
+    "motivationLevel": 91,
+    "motivation_level": 91,
+    "hypeRisk": 13,
+    "hype_score": 13,
+    "confidence": 69,
+    "confidence_numeric": 69,
+    "confidence_tier": "MEDIUM",
+    "evidence_scores": {
+      "visual": 96,
+      "ocr": 50,
+      "speech": 88,
+      "semantic": 80
+    },
+    "embedding": [
+      -0.6373182535171509,
+      0.7919029593467712,
+      -4.058090686798096,
+      -0.1880308836698532,
+      1.333052635192871,
+      0.1762203425168991,
+      0.8948023319244385,
+      -0.5195319652557373,
+      0.6534836292266846,
+      0.05540572106838226,
+      -0.9680854082107544,
+      0.10293038934469223,
+      0.6967318058013916,
+      1.7171727418899536,
+      0.012685233727097511,
+      1.306902289390564
+    ]
+  },
+  "7cba25d151261ffab930ec408d89d9b3e9f6d2ad010d9159ef71d630c703d75c": {
+    "videoId": "reel_7cba25d1",
+    "videoHash": "7cba25d151261ffab930ec408d89d9b3e9f6d2ad010d9159ef71d630c703d75c",
+    "file_hash": "7cba25d151261ffab930ec408d89d9b3e9f6d2ad010d9159ef71d630c703d75c",
+    "metadata": {
+      "duration": 136.7,
+      "width": 478,
+      "height": 850,
+      "fps": 30.0,
+      "frame_count": 4101,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.32,
+    "processing_time_seconds": 0.32,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 90%).",
+    "video_summary": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 90%).",
+    "generated_description": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 90%).",
+    "contentType": "Educational",
+    "primaryCategory": "DSA",
+    "predicted_category": "DSA",
+    "secondaryCategories": [
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "topics": [
+      "DSA",
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "keywords": [
+      "DSA",
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (89%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (82%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (66%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:16",
+        "description": "Visual context setup (DSA intro, Visual Score: 89%)",
+        "confidence": 0.89
+      },
+      {
+        "timestamp": "01:08",
+        "description": "Core technical demonstration and explanation (Algorithms, OCR Score: 66%)",
+        "confidence": 0.66
+      },
+      {
+        "timestamp": "01:56",
+        "description": "Synthesis & engineering takeaways (Speech Score: 82%)",
+        "confidence": 0.82
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:16",
+        "description": "Visual context setup (DSA intro, Visual Score: 89%)",
+        "confidence": 0.89
+      },
+      {
+        "timestamp": "01:08",
+        "description": "Core technical demonstration and explanation (Algorithms, OCR Score: 66%)",
+        "confidence": 0.66
+      },
+      {
+        "timestamp": "01:56",
+        "description": "Synthesis & engineering takeaways (Speech Score: 82%)",
+        "confidence": 0.82
+      }
+    ],
+    "technicalDepth": 90,
+    "technical_depth": 90,
+    "educationalValue": 83,
+    "educational_value": 83,
+    "entertainmentValue": 41,
+    "entertainment_value": 41,
+    "motivationLevel": 61,
+    "motivation_level": 61,
+    "hypeRisk": 2,
+    "hype_score": 2,
+    "confidence": 75,
+    "confidence_numeric": 75,
+    "confidence_tier": "MEDIUM",
+    "evidence_scores": {
+      "visual": 89,
+      "ocr": 66,
+      "speech": 82,
+      "semantic": 81
+    },
+    "embedding": [
+      0.8960114121437073,
+      1.7595670223236084,
+      -3.0702672004699707,
+      -0.7542585730552673,
+      1.418270230293274,
+      -1.0063971281051636,
+      1.8141462802886963,
+      0.02641269564628601,
+      -0.9002379179000854,
+      -0.21796993911266327,
+      0.1083357185125351,
+      0.8372169137001038,
+      1.7098075151443481,
+      0.9493439793586731,
+      -0.4421486556529999,
+      -0.5173351764678955
+    ]
+  },
+  "3e04b5f2591eafe18b876c43c64a163b81b4b2deea304a27ab7ccfe6281e9f90": {
+    "videoId": "reel_3e04b5f2",
+    "videoHash": "3e04b5f2591eafe18b876c43c64a163b81b4b2deea304a27ab7ccfe6281e9f90",
+    "file_hash": "3e04b5f2591eafe18b876c43c64a163b81b4b2deea304a27ab7ccfe6281e9f90",
+    "metadata": {
+      "duration": 51.9,
+      "width": 478,
+      "height": 850,
+      "fps": 30.0,
+      "frame_count": 1558,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.19,
+    "processing_time_seconds": 0.19,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "Inspirational tech career monologue emphasizing deliberate practice, engineering discipline, and mindset resilience (Motivation: 94%).",
+    "video_summary": "Inspirational tech career monologue emphasizing deliberate practice, engineering discipline, and mindset resilience (Motivation: 94%).",
+    "generated_description": "Inspirational tech career monologue emphasizing deliberate practice, engineering discipline, and mindset resilience (Motivation: 94%).",
+    "contentType": "Motivational",
+    "primaryCategory": "Motivational",
+    "predicted_category": "Motivational",
+    "secondaryCategories": [
+      "Career Mindset",
+      "Consistency",
+      "Engineering Growth"
+    ],
+    "topics": [
+      "Motivational",
+      "Career Mindset",
+      "Consistency",
+      "Engineering Growth"
+    ],
+    "keywords": [
+      "Motivational",
+      "Career Mindset",
+      "Consistency",
+      "Engineering Growth"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (91%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (88%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (82%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:06",
+        "description": "Visual context setup (Motivational intro, Visual Score: 91%)",
+        "confidence": 0.91
+      },
+      {
+        "timestamp": "00:25",
+        "description": "Core technical demonstration and explanation (Career Mindset, OCR Score: 82%)",
+        "confidence": 0.82
+      },
+      {
+        "timestamp": "00:44",
+        "description": "Synthesis & engineering takeaways (Speech Score: 88%)",
+        "confidence": 0.88
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:06",
+        "description": "Visual context setup (Motivational intro, Visual Score: 91%)",
+        "confidence": 0.91
+      },
+      {
+        "timestamp": "00:25",
+        "description": "Core technical demonstration and explanation (Career Mindset, OCR Score: 82%)",
+        "confidence": 0.82
+      },
+      {
+        "timestamp": "00:44",
+        "description": "Synthesis & engineering takeaways (Speech Score: 88%)",
+        "confidence": 0.88
+      }
+    ],
+    "technicalDepth": 75,
+    "technical_depth": 75,
+    "educationalValue": 81,
+    "educational_value": 81,
+    "entertainmentValue": 95,
+    "entertainment_value": 95,
+    "motivationLevel": 94,
+    "motivation_level": 94,
+    "hypeRisk": 25,
+    "hype_score": 25,
+    "confidence": 85,
+    "confidence_numeric": 85,
+    "confidence_tier": "HIGH",
+    "evidence_scores": {
+      "visual": 91,
+      "ocr": 82,
+      "speech": 88,
+      "semantic": 89
+    },
+    "embedding": [
+      -0.6998668313026428,
+      0.8015830516815186,
+      -4.140370845794678,
+      -0.17934346199035645,
+      1.3425811529159546,
+      0.19904275238513947,
+      0.9654351472854614,
+      -0.4906279742717743,
+      0.6417564749717712,
+      0.08595509082078934,
+      -1.1172746419906616,
+      0.005220838822424412,
+      0.8202415704727173,
+      1.7486183643341064,
+      0.11354899406433105,
+      1.2985953092575073
+    ]
+  },
+  "cfb927b6f8793be01caa8f9c014ed05e0d042fb0767a3ee5be129f5f65c6445f": {
+    "videoId": "reel_cfb927b6",
+    "videoHash": "cfb927b6f8793be01caa8f9c014ed05e0d042fb0767a3ee5be129f5f65c6445f",
+    "file_hash": "cfb927b6f8793be01caa8f9c014ed05e0d042fb0767a3ee5be129f5f65c6445f",
+    "metadata": {
+      "duration": 44.8,
+      "width": 474,
+      "height": 848,
+      "fps": 30.0,
+      "frame_count": 1344,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.26,
+    "processing_time_seconds": 0.26,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "video_summary": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "generated_description": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "contentType": "Comedy",
+    "primaryCategory": "Entertainment",
+    "predicted_category": "Entertainment",
+    "secondaryCategories": [
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "topics": [
+      "Entertainment",
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "keywords": [
+      "Entertainment",
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (96%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (86%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (50%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:05",
+        "description": "Visual context setup (Entertainment intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:22",
+        "description": "Core technical demonstration and explanation (Developer Culture, OCR Score: 50%)",
+        "confidence": 0.5
+      },
+      {
+        "timestamp": "00:38",
+        "description": "Synthesis & engineering takeaways (Speech Score: 86%)",
+        "confidence": 0.86
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:05",
+        "description": "Visual context setup (Entertainment intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:22",
+        "description": "Core technical demonstration and explanation (Developer Culture, OCR Score: 50%)",
+        "confidence": 0.5
+      },
+      {
+        "timestamp": "00:38",
+        "description": "Synthesis & engineering takeaways (Speech Score: 86%)",
+        "confidence": 0.86
+      }
+    ],
+    "technicalDepth": 52,
+    "technical_depth": 52,
+    "educationalValue": 58,
+    "educational_value": 58,
+    "entertainmentValue": 95,
+    "entertainment_value": 95,
+    "motivationLevel": 84,
+    "motivation_level": 84,
+    "hypeRisk": 13,
+    "hype_score": 13,
+    "confidence": 69,
+    "confidence_numeric": 69,
+    "confidence_tier": "MEDIUM",
+    "evidence_scores": {
+      "visual": 96,
+      "ocr": 50,
+      "speech": 86,
+      "semantic": 79
+    },
+    "embedding": [
+      -0.5073882937431335,
+      1.8047764301300049,
+      -4.288671016693115,
+      0.7291766405105591,
+      1.0075666904449463,
+      0.15572069585323334,
+      0.8174290657043457,
+      -0.4087580740451813,
+      -0.2472241073846817,
+      -0.9329257607460022,
+      -0.07303423434495926,
+      0.209899440407753,
+      0.07869282364845276,
+      1.5689582824707031,
+      0.40807971358299255,
+      -0.7892579436302185
+    ]
+  },
+  "be1914e7d0dded85e5841653c84437cd62cd33b29d58f6f564587b4afb1ebacb": {
+    "videoId": "reel_be1914e7",
+    "videoHash": "be1914e7d0dded85e5841653c84437cd62cd33b29d58f6f564587b4afb1ebacb",
+    "file_hash": "be1914e7d0dded85e5841653c84437cd62cd33b29d58f6f564587b4afb1ebacb",
+    "metadata": {
+      "duration": 36.7,
+      "width": 368,
+      "height": 368,
+      "fps": 30.0,
+      "frame_count": 1102,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.14,
+    "processing_time_seconds": 0.14,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "video_summary": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "generated_description": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "contentType": "Comedy",
+    "primaryCategory": "Entertainment",
+    "predicted_category": "Entertainment",
+    "secondaryCategories": [
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "topics": [
+      "Entertainment",
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "keywords": [
+      "Entertainment",
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (96%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (84%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (87%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:04",
+        "description": "Visual context setup (Entertainment intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:18",
+        "description": "Core technical demonstration and explanation (Developer Culture, OCR Score: 87%)",
+        "confidence": 0.87
+      },
+      {
+        "timestamp": "00:31",
+        "description": "Synthesis & engineering takeaways (Speech Score: 84%)",
+        "confidence": 0.84
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:04",
+        "description": "Visual context setup (Entertainment intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:18",
+        "description": "Core technical demonstration and explanation (Developer Culture, OCR Score: 87%)",
+        "confidence": 0.87
+      },
+      {
+        "timestamp": "00:31",
+        "description": "Synthesis & engineering takeaways (Speech Score: 84%)",
+        "confidence": 0.84
+      }
+    ],
+    "technicalDepth": 76,
+    "technical_depth": 76,
+    "educationalValue": 76,
+    "educational_value": 76,
+    "entertainmentValue": 95,
+    "entertainment_value": 95,
+    "motivationLevel": 70,
+    "motivation_level": 70,
+    "hypeRisk": 13,
+    "hype_score": 13,
+    "confidence": 87,
+    "confidence_numeric": 87,
+    "confidence_tier": "HIGH",
+    "evidence_scores": {
+      "visual": 96,
+      "ocr": 87,
+      "speech": 84,
+      "semantic": 91
+    },
+    "embedding": [
+      -0.5073882937431335,
+      1.8047764301300049,
+      -4.288671016693115,
+      0.7291766405105591,
+      1.0075666904449463,
+      0.15572069585323334,
+      0.8174290657043457,
+      -0.4087580740451813,
+      -0.2472241073846817,
+      -0.9329257607460022,
+      -0.07303423434495926,
+      0.209899440407753,
+      0.07869282364845276,
+      1.5689582824707031,
+      0.40807971358299255,
+      -0.7892579436302185
+    ]
+  },
+  "812f5afd4f414b1d40ab362c842a70f7960962f187900ddeca65c2dd904b5dcc": {
+    "videoId": "reel_812f5afd",
+    "videoHash": "812f5afd4f414b1d40ab362c842a70f7960962f187900ddeca65c2dd904b5dcc",
+    "file_hash": "812f5afd4f414b1d40ab362c842a70f7960962f187900ddeca65c2dd904b5dcc",
+    "metadata": {
+      "duration": 73.0,
+      "width": 476,
+      "height": 848,
+      "fps": 30.0,
+      "frame_count": 2191,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.31,
+    "processing_time_seconds": 0.31,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "video_summary": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "generated_description": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "contentType": "Comedy",
+    "primaryCategory": "Entertainment",
+    "predicted_category": "Entertainment",
+    "secondaryCategories": [
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "topics": [
+      "Entertainment",
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "keywords": [
+      "Entertainment",
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (96%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (83%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (50%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:08",
+        "description": "Visual context setup (Entertainment intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:36",
+        "description": "Core technical demonstration and explanation (Developer Culture, OCR Score: 50%)",
+        "confidence": 0.5
+      },
+      {
+        "timestamp": "01:02",
+        "description": "Synthesis & engineering takeaways (Speech Score: 83%)",
+        "confidence": 0.83
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:08",
+        "description": "Visual context setup (Entertainment intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:36",
+        "description": "Core technical demonstration and explanation (Developer Culture, OCR Score: 50%)",
+        "confidence": 0.5
+      },
+      {
+        "timestamp": "01:02",
+        "description": "Synthesis & engineering takeaways (Speech Score: 83%)",
+        "confidence": 0.83
+      }
+    ],
+    "technicalDepth": 46,
+    "technical_depth": 46,
+    "educationalValue": 57,
+    "educational_value": 57,
+    "entertainmentValue": 95,
+    "entertainment_value": 95,
+    "motivationLevel": 68,
+    "motivation_level": 68,
+    "hypeRisk": 18,
+    "hype_score": 18,
+    "confidence": 68,
+    "confidence_numeric": 68,
+    "confidence_tier": "MEDIUM",
+    "evidence_scores": {
+      "visual": 96,
+      "ocr": 50,
+      "speech": 83,
+      "semantic": 78
+    },
+    "embedding": [
+      -0.5073882937431335,
+      1.8047764301300049,
+      -4.288671016693115,
+      0.7291766405105591,
+      1.0075666904449463,
+      0.15572069585323334,
+      0.8174290657043457,
+      -0.4087580740451813,
+      -0.2472241073846817,
+      -0.9329257607460022,
+      -0.07303423434495926,
+      0.209899440407753,
+      0.07869282364845276,
+      1.5689582824707031,
+      0.40807971358299255,
+      -0.7892579436302185
+    ]
+  },
+  "93f2f633a0bae05fc2ff2daae0952aa27ede3174c477970c8e523d40b1639214": {
+    "videoId": "reel_93f2f633",
+    "videoHash": "93f2f633a0bae05fc2ff2daae0952aa27ede3174c477970c8e523d40b1639214",
+    "file_hash": "93f2f633a0bae05fc2ff2daae0952aa27ede3174c477970c8e523d40b1639214",
+    "metadata": {
+      "duration": 14.2,
+      "width": 478,
+      "height": 850,
+      "fps": 30.0,
+      "frame_count": 426,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.16,
+    "processing_time_seconds": 0.16,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 93%).",
+    "video_summary": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 93%).",
+    "generated_description": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 93%).",
+    "contentType": "Educational",
+    "primaryCategory": "DSA",
+    "predicted_category": "DSA",
+    "secondaryCategories": [
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "topics": [
+      "DSA",
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "keywords": [
+      "DSA",
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (96%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (80%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (81%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:01",
+        "description": "Visual context setup (DSA intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:07",
+        "description": "Core technical demonstration and explanation (Algorithms, OCR Score: 81%)",
+        "confidence": 0.81
+      },
+      {
+        "timestamp": "00:12",
+        "description": "Synthesis & engineering takeaways (Speech Score: 80%)",
+        "confidence": 0.8
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:01",
+        "description": "Visual context setup (DSA intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:07",
+        "description": "Core technical demonstration and explanation (Algorithms, OCR Score: 81%)",
+        "confidence": 0.81
+      },
+      {
+        "timestamp": "00:12",
+        "description": "Synthesis & engineering takeaways (Speech Score: 80%)",
+        "confidence": 0.8
+      }
+    ],
+    "technicalDepth": 93,
+    "technical_depth": 93,
+    "educationalValue": 81,
+    "educational_value": 81,
+    "entertainmentValue": 39,
+    "entertainment_value": 39,
+    "motivationLevel": 50,
+    "motivation_level": 50,
+    "hypeRisk": 2,
+    "hype_score": 2,
+    "confidence": 82,
+    "confidence_numeric": 82,
+    "confidence_tier": "HIGH",
+    "evidence_scores": {
+      "visual": 96,
+      "ocr": 81,
+      "speech": 80,
+      "semantic": 87
+    },
+    "embedding": [
+      0.8984487056732178,
+      1.7409600019454956,
+      -3.0670244693756104,
+      -0.7675219774246216,
+      1.457002878189087,
+      -0.9763932228088379,
+      1.831952452659607,
+      0.005256387405097485,
+      -0.9115587472915649,
+      -0.23793786764144897,
+      0.11273042857646942,
+      0.7965987324714661,
+      1.7251564264297485,
+      0.954990565776825,
+      -0.4437841475009918,
+      -0.47137483954429626
+    ]
+  },
+  "8918a397120044b16f866b15b0555448623a6eb29ced303d58ff5c428bb71c61": {
+    "videoId": "reel_8918a397",
+    "videoHash": "8918a397120044b16f866b15b0555448623a6eb29ced303d58ff5c428bb71c61",
+    "file_hash": "8918a397120044b16f866b15b0555448623a6eb29ced303d58ff5c428bb71c61",
+    "metadata": {
+      "duration": 57.5,
+      "width": 478,
+      "height": 850,
+      "fps": 30.0,
+      "frame_count": 1725,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.18,
+    "processing_time_seconds": 0.18,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "Software development walkthrough demonstrating engineering workflows and syntax patterns (Tech Depth: 87%).",
+    "video_summary": "Software development walkthrough demonstrating engineering workflows and syntax patterns (Tech Depth: 87%).",
+    "generated_description": "Software development walkthrough demonstrating engineering workflows and syntax patterns (Tech Depth: 87%).",
+    "contentType": "Educational",
+    "primaryCategory": "Programming",
+    "predicted_category": "Programming",
+    "secondaryCategories": [
+      "Software Engineering",
+      "Tech Tutorial"
+    ],
+    "topics": [
+      "Programming",
+      "Software Engineering",
+      "Tech Tutorial"
+    ],
+    "keywords": [
+      "Programming",
+      "Software Engineering",
+      "Tech Tutorial"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (88%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (80%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (62%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:06",
+        "description": "Visual context setup (Programming intro, Visual Score: 88%)",
+        "confidence": 0.88
+      },
+      {
+        "timestamp": "00:28",
+        "description": "Core technical demonstration and explanation (Software Engineering, OCR Score: 62%)",
+        "confidence": 0.62
+      },
+      {
+        "timestamp": "00:48",
+        "description": "Synthesis & engineering takeaways (Speech Score: 80%)",
+        "confidence": 0.8
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:06",
+        "description": "Visual context setup (Programming intro, Visual Score: 88%)",
+        "confidence": 0.88
+      },
+      {
+        "timestamp": "00:28",
+        "description": "Core technical demonstration and explanation (Software Engineering, OCR Score: 62%)",
+        "confidence": 0.62
+      },
+      {
+        "timestamp": "00:48",
+        "description": "Synthesis & engineering takeaways (Speech Score: 80%)",
+        "confidence": 0.8
+      }
+    ],
+    "technicalDepth": 87,
+    "technical_depth": 87,
+    "educationalValue": 85,
+    "educational_value": 85,
+    "entertainmentValue": 32,
+    "entertainment_value": 32,
+    "motivationLevel": 53,
+    "motivation_level": 53,
+    "hypeRisk": 2,
+    "hype_score": 2,
+    "confidence": 72,
+    "confidence_numeric": 72,
+    "confidence_tier": "MEDIUM",
+    "evidence_scores": {
+      "visual": 88,
+      "ocr": 62,
+      "speech": 80,
+      "semantic": 78
+    },
+    "embedding": [
+      -0.10889308154582977,
+      0.8982542753219604,
+      -3.5777242183685303,
+      -1.075546145439148,
+      0.8682555556297302,
+      -0.022839467972517014,
+      1.3027886152267456,
+      -0.6016710996627808,
+      0.11392918974161148,
+      -0.7451111078262329,
+      0.41665586829185486,
+      -0.3862530291080475,
+      2.1457340717315674,
+      1.660304069519043,
+      -0.35800784826278687,
+      -0.1622488647699356
+    ]
+  },
+  "6eaa13aa9d7e3148bfe477d337764d7c2b89ed943bfbe5bb67b40dd92cf5554d": {
+    "videoId": "reel_6eaa13aa",
+    "videoHash": "6eaa13aa9d7e3148bfe477d337764d7c2b89ed943bfbe5bb67b40dd92cf5554d",
+    "file_hash": "6eaa13aa9d7e3148bfe477d337764d7c2b89ed943bfbe5bb67b40dd92cf5554d",
+    "metadata": {
+      "duration": 15.5,
+      "width": 478,
+      "height": 850,
+      "fps": 30.0,
+      "frame_count": 465,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.16,
+    "processing_time_seconds": 0.16,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "video_summary": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "generated_description": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "contentType": "Comedy",
+    "primaryCategory": "Entertainment",
+    "predicted_category": "Entertainment",
+    "secondaryCategories": [
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "topics": [
+      "Entertainment",
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "keywords": [
+      "Entertainment",
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (96%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (78%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (73%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:01",
+        "description": "Visual context setup (Entertainment intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:07",
+        "description": "Core technical demonstration and explanation (Developer Culture, OCR Score: 73%)",
+        "confidence": 0.73
+      },
+      {
+        "timestamp": "00:13",
+        "description": "Synthesis & engineering takeaways (Speech Score: 78%)",
+        "confidence": 0.78
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:01",
+        "description": "Visual context setup (Entertainment intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:07",
+        "description": "Core technical demonstration and explanation (Developer Culture, OCR Score: 73%)",
+        "confidence": 0.73
+      },
+      {
+        "timestamp": "00:13",
+        "description": "Synthesis & engineering takeaways (Speech Score: 78%)",
+        "confidence": 0.78
+      }
+    ],
+    "technicalDepth": 61,
+    "technical_depth": 61,
+    "educationalValue": 87,
+    "educational_value": 87,
+    "entertainmentValue": 95,
+    "entertainment_value": 95,
+    "motivationLevel": 41,
+    "motivation_level": 41,
+    "hypeRisk": 2,
+    "hype_score": 2,
+    "confidence": 78,
+    "confidence_numeric": 78,
+    "confidence_tier": "MEDIUM",
+    "evidence_scores": {
+      "visual": 96,
+      "ocr": 73,
+      "speech": 78,
+      "semantic": 84
+    },
+    "embedding": [
+      -0.5073882937431335,
+      1.8047764301300049,
+      -4.288671016693115,
+      0.7291766405105591,
+      1.0075666904449463,
+      0.15572069585323334,
+      0.8174290657043457,
+      -0.4087580740451813,
+      -0.2472241073846817,
+      -0.9329257607460022,
+      -0.07303423434495926,
+      0.209899440407753,
+      0.07869282364845276,
+      1.5689582824707031,
+      0.40807971358299255,
+      -0.7892579436302185
+    ]
+  },
+  "1a49efc6a84fb5f159e5c0730144891dc24c1d87e73b80a1889bdfc52bb66387": {
+    "videoId": "reel_1a49efc6",
+    "videoHash": "1a49efc6a84fb5f159e5c0730144891dc24c1d87e73b80a1889bdfc52bb66387",
+    "file_hash": "1a49efc6a84fb5f159e5c0730144891dc24c1d87e73b80a1889bdfc52bb66387",
+    "metadata": {
+      "duration": 42.7,
+      "width": 478,
+      "height": 850,
+      "fps": 30.0,
+      "frame_count": 1280,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.23,
+    "processing_time_seconds": 0.23,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "video_summary": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "generated_description": "High-energy developer comedy and tech culture sketch with dynamic motion transitions and humorous narrative (Entertainment: 95%).",
+    "contentType": "Comedy",
+    "primaryCategory": "Entertainment",
+    "predicted_category": "Entertainment",
+    "secondaryCategories": [
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "topics": [
+      "Entertainment",
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "keywords": [
+      "Entertainment",
+      "Developer Culture",
+      "Comedy",
+      "Tech Humor"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (96%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (83%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (58%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:05",
+        "description": "Visual context setup (Entertainment intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:21",
+        "description": "Core technical demonstration and explanation (Developer Culture, OCR Score: 58%)",
+        "confidence": 0.58
+      },
+      {
+        "timestamp": "00:36",
+        "description": "Synthesis & engineering takeaways (Speech Score: 83%)",
+        "confidence": 0.83
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:05",
+        "description": "Visual context setup (Entertainment intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:21",
+        "description": "Core technical demonstration and explanation (Developer Culture, OCR Score: 58%)",
+        "confidence": 0.58
+      },
+      {
+        "timestamp": "00:36",
+        "description": "Synthesis & engineering takeaways (Speech Score: 83%)",
+        "confidence": 0.83
+      }
+    ],
+    "technicalDepth": 55,
+    "technical_depth": 55,
+    "educationalValue": 70,
+    "educational_value": 70,
+    "entertainmentValue": 95,
+    "entertainment_value": 95,
+    "motivationLevel": 67,
+    "motivation_level": 67,
+    "hypeRisk": 13,
+    "hype_score": 13,
+    "confidence": 72,
+    "confidence_numeric": 72,
+    "confidence_tier": "MEDIUM",
+    "evidence_scores": {
+      "visual": 96,
+      "ocr": 58,
+      "speech": 83,
+      "semantic": 81
+    },
+    "embedding": [
+      -0.5073882937431335,
+      1.8047764301300049,
+      -4.288671016693115,
+      0.7291766405105591,
+      1.0075666904449463,
+      0.15572069585323334,
+      0.8174290657043457,
+      -0.4087580740451813,
+      -0.2472241073846817,
+      -0.9329257607460022,
+      -0.07303423434495926,
+      0.209899440407753,
+      0.07869282364845276,
+      1.5689582824707031,
+      0.40807971358299255,
+      -0.7892579436302185
+    ]
+  },
+  "666cc5b67ae55964512917285363e8e00558e193f38d9a18a64f7eae8c7af515": {
+    "videoId": "reel_666cc5b6",
+    "videoHash": "666cc5b67ae55964512917285363e8e00558e193f38d9a18a64f7eae8c7af515",
+    "file_hash": "666cc5b67ae55964512917285363e8e00558e193f38d9a18a64f7eae8c7af515",
+    "metadata": {
+      "duration": 39.3,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frame_count": 1178,
+      "has_audio": true
+    },
+    "modelUsed": "TechLens Multimodal CV-Audio Engine",
+    "model_used": "TechLens Multimodal CV-Audio Engine",
+    "fallbackModel": "OpenCV Temporal Frame Extractor",
+    "processingTimeSeconds": 0.43,
+    "processing_time_seconds": 0.43,
+    "analysisStatus": "COMPLETE",
+    "analysis_status": "COMPLETE",
+    "summary": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 87%).",
+    "video_summary": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 87%).",
+    "generated_description": "Algorithmic problem-solving tutorial analyzing data structure invariants, pointer bounds, and runtime complexity (Tech Depth: 87%).",
+    "contentType": "Educational",
+    "primaryCategory": "DSA",
+    "predicted_category": "DSA",
+    "secondaryCategories": [
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "topics": [
+      "DSA",
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "keywords": [
+      "DSA",
+      "Algorithms",
+      "Sliding Window",
+      "Data Structures"
+    ],
+    "visualEvidence": [
+      "Visual Frame Dynamics (96%)"
+    ],
+    "audioEvidence": [
+      "Acoustic Speech Energy (76%)"
+    ],
+    "textEvidence": [
+      "On-Screen Code OCR (65%)"
+    ],
+    "keyMoments": [
+      {
+        "timestamp": "00:04",
+        "description": "Visual context setup (DSA intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:19",
+        "description": "Core technical demonstration and explanation (Algorithms, OCR Score: 65%)",
+        "confidence": 0.65
+      },
+      {
+        "timestamp": "00:33",
+        "description": "Synthesis & engineering takeaways (Speech Score: 76%)",
+        "confidence": 0.76
+      }
+    ],
+    "key_moments": [
+      {
+        "timestamp": "00:04",
+        "description": "Visual context setup (DSA intro, Visual Score: 96%)",
+        "confidence": 0.96
+      },
+      {
+        "timestamp": "00:19",
+        "description": "Core technical demonstration and explanation (Algorithms, OCR Score: 65%)",
+        "confidence": 0.65
+      },
+      {
+        "timestamp": "00:33",
+        "description": "Synthesis & engineering takeaways (Speech Score: 76%)",
+        "confidence": 0.76
+      }
+    ],
+    "technicalDepth": 87,
+    "technical_depth": 87,
+    "educationalValue": 95,
+    "educational_value": 95,
+    "entertainmentValue": 71,
+    "entertainment_value": 71,
+    "motivationLevel": 31,
+    "motivation_level": 31,
+    "hypeRisk": 2,
+    "hype_score": 2,
+    "confidence": 73,
+    "confidence_numeric": 73,
+    "confidence_tier": "MEDIUM",
+    "evidence_scores": {
+      "visual": 96,
+      "ocr": 65,
+      "speech": 76,
+      "semantic": 81
+    },
+    "embedding": [
+      0.8830931782722473,
+      1.7475906610488892,
+      -3.055737257003784,
+      -0.7687643766403198,
+      1.450826644897461,
+      -0.9581120610237122,
+      1.837444543838501,
+      -0.03756839036941528,
+      -0.8916475772857666,
+      -0.2411484569311142,
+      0.1414930820465088,
+      0.7839146256446838,
+      1.718428134918213,
+      0.9625505208969116,
+      -0.4323295056819916,
+      -0.4906543791294098
+    ]
+  }
+}
