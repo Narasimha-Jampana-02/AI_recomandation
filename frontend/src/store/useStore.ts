@@ -2,13 +2,10 @@ import { create } from 'zustand';
 import axios from 'axios';
 import type {
   AppState,
-  AppSection,
-  DemoUser,
   Reel,
   ReelInteraction,
   SessionBehaviorSummary,
   AnalysisResult,
-  UserFeedback,
   ExperimentReel,
   ExperimentInteraction,
   ExperimentSessionResult,
@@ -17,19 +14,21 @@ import type {
   TestScenario,
 } from '../types';
 import { INTERACTIVE_25_REELS } from '../data/interactiveReels';
+import { STATIC_EXPERIMENT_REELS, STATIC_EVALUATION_METRICS } from '../data/experimentReels';
 import { DEFAULT_BEHAVIOR_WEIGHTS, BehaviorWeights } from '../config/behaviorWeights';
 import { evaluateExperimentSession } from '../services/experimentEngine';
 
 interface StoreActions {
-  setSection: (section: AppSection) => void;
-  setUser: (user: DemoUser | null) => void;
+  setSection: (section: AppState['section']) => void;
+  setUser: (user: AppState['user']) => void;
   loginDemoUser: (email?: string, name?: string) => void;
   logoutDemoUser: () => void;
   setReels: (reels: Reel[]) => void;
   setActiveReelIndex: (index: number) => void;
   nextReel: () => void;
   prevReel: () => void;
-  updateReelInteraction: (interaction: Partial<ReelInteraction> & { reelId: string }) => void;
+  recordInteraction: (partial: Partial<ReelInteraction> & { reelId: string }) => void;
+  updateReelInteraction: (partial: Partial<ReelInteraction> & { reelId: string }) => void;
   toggleLikeReel: (reelId: string) => void;
   toggleSaveReel: (reelId: string) => void;
   shareReel: (reelId: string) => void;
@@ -41,12 +40,12 @@ interface StoreActions {
   setDemoMode: (isDemoMode: boolean) => void;
   setJudgeModalOpen: (isOpen: boolean) => void;
   setJudgeStep: (step: number) => void;
-  addFeedback: (feedback: UserFeedback) => void;
+  addFeedback: (feedback: { recommendationId: string; feedbackType: any; timestamp: number }) => void;
   setSelectedDimension: (dimension: string | null) => void;
   setEvidenceDrawerOpen: (isOpen: boolean) => void;
   resetAll: () => void;
 
-  // Real-World Multimodal Experiment Actions
+  // Real-World Multimodal Actions
   fetchExperimentReels: () => Promise<void>;
   fetchEvaluationMetrics: () => Promise<void>;
   fetchRobustnessTests: () => Promise<void>;
@@ -103,15 +102,15 @@ export const useStore = create<AppState & StoreActions>((set, get) => ({
   selectedDimension: null,
   isEvidenceDrawerOpen: false,
 
-  // Multimodal Experiment State
-  experimentReels: [],
+  // Multimodal Experiment State (With Preloaded Invariant Datasets for Instant Web Rendering)
+  experimentReels: STATIC_EXPERIMENT_REELS,
   experimentActiveIndex: 0,
   experimentSessionId: `EXP-${new Date().getFullYear()}-001`,
   experimentStartedAt: Date.now(),
   experimentInteractions: {},
   experimentResult: null,
   behaviorWeights: DEFAULT_BEHAVIOR_WEIGHTS,
-  evaluationMetrics: null,
+  evaluationMetrics: STATIC_EVALUATION_METRICS,
   robustnessResults: null,
   testScenarios: null,
 
@@ -142,18 +141,18 @@ export const useStore = create<AppState & StoreActions>((set, get) => ({
     if (activeReelIndex > 0) set({ activeReelIndex: activeReelIndex - 1 });
   },
 
-  updateReelInteraction: (partial) => {
+  recordInteraction: (partial) => {
     const { sessionInteractions, reels } = get();
     const existing = sessionInteractions[partial.reelId];
     const reel = reels.find((r) => r.id === partial.reelId);
 
     const updated: ReelInteraction = {
       reelId: partial.reelId,
-      topic: partial.topic || existing?.topic || reel?.topic || 'Tech',
+      topic: partial.topic || existing?.topic || reel?.topic || 'Programming',
       subtopic: partial.subtopic || existing?.subtopic || reel?.subtopic || 'General',
-      category: partial.category || existing?.category || reel?.category || 'General',
+      category: partial.category || existing?.category || reel?.category || 'Technology',
       watchTime: partial.watchTime ?? existing?.watchTime ?? 0,
-      duration: partial.duration ?? existing?.duration ?? reel?.duration ?? 45,
+      duration: partial.duration ?? existing?.duration ?? (reel?.duration || 45),
       watchPercentage: partial.watchPercentage ?? existing?.watchPercentage ?? 0,
       liked: partial.liked ?? existing?.liked ?? false,
       saved: partial.saved ?? existing?.saved ?? false,
@@ -161,8 +160,10 @@ export const useStore = create<AppState & StoreActions>((set, get) => ({
       replayed: partial.replayed ?? existing?.replayed ?? false,
       replayCount: partial.replayCount ?? existing?.replayCount ?? 0,
       skipped: partial.skipped ?? existing?.skipped ?? false,
+      scrollVelocity: partial.scrollVelocity ?? existing?.scrollVelocity ?? 0,
       completed: partial.completed ?? existing?.completed ?? false,
-      timestamp: Date.now(),
+      timestamp: partial.timestamp ?? existing?.timestamp ?? Date.now(),
+      calculatedScore: partial.calculatedScore ?? existing?.calculatedScore ?? 0,
     };
 
     set({
@@ -172,6 +173,8 @@ export const useStore = create<AppState & StoreActions>((set, get) => ({
       },
     });
   },
+
+  updateReelInteraction: (partial) => get().recordInteraction(partial),
 
   toggleLikeReel: (reelId) => {
     const { sessionInteractions } = get();
@@ -278,13 +281,15 @@ export const useStore = create<AppState & StoreActions>((set, get) => ({
     try {
       const resp = await axios.get<{ success: boolean; count: number; reels: ExperimentReel[] }>(
         '/api/experiment/reels',
-        { timeout: 5000 }
+        { timeout: 3000 }
       );
       if (resp.data?.success && Array.isArray(resp.data.reels) && resp.data.reels.length > 0) {
         set({ experimentReels: resp.data.reels });
       }
     } catch {
-      // Keep state
+      if (!get().experimentReels || get().experimentReels.length === 0) {
+        set({ experimentReels: STATIC_EXPERIMENT_REELS });
+      }
     }
   },
 
@@ -292,13 +297,13 @@ export const useStore = create<AppState & StoreActions>((set, get) => ({
     try {
       const resp = await axios.get<{ success: boolean; evaluation: ClassificationEvaluation }>(
         '/api/experiment/evaluation',
-        { timeout: 4000 }
+        { timeout: 3000 }
       );
       if (resp.data?.success) {
         set({ evaluationMetrics: resp.data.evaluation });
       }
     } catch {
-      // Fallback
+      set({ evaluationMetrics: STATIC_EVALUATION_METRICS });
     }
   },
 
@@ -306,7 +311,7 @@ export const useStore = create<AppState & StoreActions>((set, get) => ({
     try {
       const resp = await axios.get<{ success: boolean; results: RobustnessTestResult }>(
         '/api/experiment/robustness',
-        { timeout: 6000 }
+        { timeout: 4000 }
       );
       if (resp.data?.success) {
         set({ robustnessResults: resp.data.results });
@@ -320,7 +325,7 @@ export const useStore = create<AppState & StoreActions>((set, get) => ({
     try {
       const resp = await axios.get<{ success: boolean; scenarios: Record<string, TestScenario> }>(
         '/api/experiment/scenarios',
-        { timeout: 4000 }
+        { timeout: 3000 }
       );
       if (resp.data?.success) {
         set({ testScenarios: resp.data.scenarios });
@@ -331,7 +336,7 @@ export const useStore = create<AppState & StoreActions>((set, get) => ({
   },
 
   runTestScenario: async (scenarioKey: string) => {
-    const { testScenarios, behaviorWeights } = get();
+    const { testScenarios, behaviorWeights, experimentReels } = get();
     let scenario = testScenarios?.[scenarioKey];
 
     if (!scenario) {
@@ -339,8 +344,8 @@ export const useStore = create<AppState & StoreActions>((set, get) => ({
       scenario = get().testScenarios?.[scenarioKey];
     }
 
+    const sessionId = `EXP-SCENARIO-${scenarioKey.toUpperCase().slice(0, 8)}`;
     if (scenario) {
-      const sessionId = `EXP-SCENARIO-${scenarioKey.toUpperCase().slice(0, 8)}`;
       try {
         const resp = await axios.post<{ success: boolean; session: ExperimentSessionResult }>(
           '/api/experiment/analyze',
@@ -349,7 +354,7 @@ export const useStore = create<AppState & StoreActions>((set, get) => ({
             interactions: scenario.interactions,
             weights: behaviorWeights,
           },
-          { timeout: 5000 }
+          { timeout: 4000 }
         );
         if (resp.data?.success && resp.data.session) {
           set({
@@ -357,10 +362,53 @@ export const useStore = create<AppState & StoreActions>((set, get) => ({
             experimentResult: resp.data.session,
             section: 'experiment_results',
           });
+          return;
         }
       } catch {
-        // Fallback
+        // Fallback to client engine
       }
+
+      const mapInter: Record<string, ExperimentInteraction> = {};
+      scenario.interactions.forEach((it, idx) => {
+        mapInter[it.reel_id] = {
+          reel_id: it.reel_id,
+          filename: it.filename,
+          index: idx + 1,
+          session_id: sessionId,
+          opened_at: Date.now() - 60000,
+          closed_at: Date.now(),
+          watch_duration: it.watch_duration,
+          video_duration: 45,
+          completion_percentage: it.completion_percentage,
+          completed: it.completion_percentage >= 90,
+          replay_count: it.replayed ? 1 : 0,
+          replayed: it.replayed,
+          skipped: it.skipped,
+          liked: it.liked,
+          saved: it.saved,
+          shared: false,
+          pause_count: 0,
+          resume_count: 0,
+          scroll_direction: 'down',
+          time_before_skipping: 0,
+          topic: it.topic,
+          category: it.topic,
+        };
+      });
+
+      const clientRes = evaluateExperimentSession(
+        sessionId,
+        Date.now() - 60000,
+        mapInter,
+        experimentReels,
+        behaviorWeights
+      );
+
+      set({
+        experimentSessionId: sessionId,
+        experimentResult: clientRes,
+        section: 'experiment_results',
+      });
     }
   },
 
@@ -397,12 +445,12 @@ export const useStore = create<AppState & StoreActions>((set, get) => ({
     });
 
     set({
+      section: 'experiment',
+      experimentActiveIndex: 0,
       experimentSessionId: sessionId,
       experimentStartedAt: Date.now(),
-      experimentActiveIndex: 0,
       experimentInteractions: initialInter,
       experimentResult: null,
-      section: 'experiment',
     });
   },
 
@@ -478,7 +526,7 @@ export const useStore = create<AppState & StoreActions>((set, get) => ({
           interactions: Object.values(experimentInteractions),
           weights: behaviorWeights,
         },
-        { timeout: 6000 }
+        { timeout: 5000 }
       );
       if (resp.data?.success && resp.data.session) {
         set({
