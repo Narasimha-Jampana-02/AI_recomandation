@@ -27,7 +27,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 94
     },
     "file_hash": "d36b4fd14ba5e99d8665d0567d2a6795b8fa57b6772a45e94af10c8f40f4d5fb",
-    "video_url": "/api/experiment/video/real_reel_01",
+    "video_url": "/reels/reel_01.mp4",
     "title": "Reel #01: Entertainment",
     "content_identity": {
       "datasetLabel": "DSA",
@@ -207,7 +207,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 74
     },
     "file_hash": "c57cee295b4b417b71e31581502a78811450f48b80769529c18dd5b97124661a",
-    "video_url": "/api/experiment/video/real_reel_02",
+    "video_url": "/reels/reel_02.mp4",
     "title": "Reel #02: Programming",
     "content_identity": {
       "datasetLabel": "DSA",
@@ -383,7 +383,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 74
     },
     "file_hash": "976fdcef9262a12ef0d8962357542ba781a990af0db9b2952f5aa52d1d7af949",
-    "video_url": "/api/experiment/video/real_reel_03",
+    "video_url": "/reels/reel_03.mp4",
     "title": "Reel #03: Entertainment",
     "content_identity": {
       "datasetLabel": "DSA",
@@ -563,7 +563,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 91
     },
     "file_hash": "1ac76aff33f9eb3f59943d51da64e07ca52f2c6832fbf48118fdd8860e549745",
-    "video_url": "/api/experiment/video/real_reel_04",
+    "video_url": "/reels/reel_04.mp4",
     "title": "Reel #04: DSA",
     "content_identity": {
       "datasetLabel": "DSA",
@@ -743,7 +743,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 81
     },
     "file_hash": "5340bd36fdf00932e25fa415f723a9eb2916a4717a7a1821ce8c24b1c5dc418a",
-    "video_url": "/api/experiment/video/real_reel_05",
+    "video_url": "/reels/reel_05.mp4",
     "title": "Reel #05: Programming",
     "content_identity": {
       "datasetLabel": "Entertainment",
@@ -919,7 +919,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 84
     },
     "file_hash": "62d3c9f238cb6aef2c00f82f681602d73aa4773fcaf1f1801db79e96f35318ea",
-    "video_url": "/api/experiment/video/real_reel_06",
+    "video_url": "/reels/reel_06.mp4",
     "title": "Reel #06: DSA",
     "content_identity": {
       "datasetLabel": "Entertainment",
@@ -1099,7 +1099,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 87
     },
     "file_hash": "786d65632cbf9d6ecbc1230d6f300cd05b4185adb5cddf65c506197c59a0d781",
-    "video_url": "/api/experiment/video/real_reel_07",
+    "video_url": "/reels/reel_07.mp4",
     "title": "Reel #07: DSA",
     "content_identity": {
       "datasetLabel": "Entertainment",
@@ -1279,7 +1279,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 82
     },
     "file_hash": "8141a8b2c3ef60b6e7493121770a5738b7cce192d9c5b9486a6c2336bada9c21",
-    "video_url": "/api/experiment/video/real_reel_08",
+    "video_url": "/reels/reel_08.mp4",
     "title": "Reel #08: Motivational",
     "content_identity": {
       "datasetLabel": "Entertainment",
@@ -1459,7 +1459,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 90
     },
     "file_hash": "a8cabe3d922ea67632d36c5b4e728d70fb11a3423e69ab54287a1c0e78020eef",
-    "video_url": "/api/experiment/video/real_reel_09",
+    "video_url": "/reels/reel_09.mp4",
     "title": "Reel #09: Entertainment",
     "content_identity": {
       "datasetLabel": "Entertainment",
@@ -1639,7 +1639,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 76
     },
     "file_hash": "ef1a315c359019c7565385cbd5bc7137c3870bcbded80631ec5e5d4f059c6d12",
-    "video_url": "/api/experiment/video/real_reel_10",
+    "video_url": "/reels/reel_10.mp4",
     "title": "Reel #10: Programming",
     "content_identity": {
       "datasetLabel": "Motivational",
@@ -1815,7 +1815,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 87
     },
     "file_hash": "b37600604ee198d6b6b8935e12a4ef249b2e97d348b75647ecb9fe2fda65d23b",
-    "video_url": "/api/experiment/video/real_reel_11",
+    "video_url": "/reels/reel_11.mp4",
     "title": "Reel #11: DSA",
     "content_identity": {
       "datasetLabel": "Motivational",
@@ -1995,7 +1995,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 82
     },
     "file_hash": "c9507609315b7f6f8886be0ca5d666cbf8058a29bcb9194334a438a89f02c8b5",
-    "video_url": "/api/experiment/video/real_reel_12",
+    "video_url": "/reels/reel_12.mp4",
     "title": "Reel #12: Entertainment",
     "content_identity": {
       "datasetLabel": "Motivational",
@@ -2175,7 +2175,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 84
     },
     "file_hash": "2d0592458adea85b64ea1ff06906e77714a3a5a9e826656db07efdac7d40d9d7",
-    "video_url": "/api/experiment/video/real_reel_13",
+    "video_url": "/reels/reel_13.mp4",
     "title": "Reel #13: DSA",
     "content_identity": {
       "datasetLabel": "Motivational",
@@ -2355,7 +2355,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 92
     },
     "file_hash": "4b13f8cb4fe72b28625a4d05ecb132228a1d25abac83d4b3739aeb64ac997904",
-    "video_url": "/api/experiment/video/real_reel_14",
+    "video_url": "/reels/reel_14.mp4",
     "title": "Reel #14: Entertainment",
     "content_identity": {
       "datasetLabel": "Motivational",
@@ -2535,7 +2535,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 76
     },
     "file_hash": "bd2e33656b3b38adcb0d8e6440415d01f1563dcd732e89afe10856a845772cd8",
-    "video_url": "/api/experiment/video/real_reel_15",
+    "video_url": "/reels/reel_15.mp4",
     "title": "Reel #15: Entertainment",
     "content_identity": {
       "datasetLabel": "Motivational",
@@ -2715,7 +2715,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 79
     },
     "file_hash": "5bb0ffad080f5918668b6919a36d675088448bc37475255a004f883b997a1b99",
-    "video_url": "/api/experiment/video/real_reel_16",
+    "video_url": "/reels/reel_16.mp4",
     "title": "Reel #16: Entertainment",
     "content_identity": {
       "datasetLabel": "Motivational",
@@ -2895,7 +2895,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 88
     },
     "file_hash": "ef7a93d282f8c2df96605fc4eeeb6ab31a121c0d773fe7f77690dfd525ec3d0a",
-    "video_url": "/api/experiment/video/real_reel_17",
+    "video_url": "/reels/reel_17.mp4",
     "title": "Reel #17: DSA",
     "content_identity": {
       "datasetLabel": "Motivational",
@@ -3075,7 +3075,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 80
     },
     "file_hash": "34dabad7ba4d8e92505074dea5f0be1d8de0356cc9471bf2d767de7f7aef5d51",
-    "video_url": "/api/experiment/video/real_reel_18",
+    "video_url": "/reels/reel_18.mp4",
     "title": "Reel #18: Motivational",
     "content_identity": {
       "datasetLabel": "Motivational",
@@ -3255,7 +3255,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 81
     },
     "file_hash": "7cba25d151261ffab930ec408d89d9b3e9f6d2ad010d9159ef71d630c703d75c",
-    "video_url": "/api/experiment/video/real_reel_19",
+    "video_url": "/reels/reel_19.mp4",
     "title": "Reel #19: DSA",
     "content_identity": {
       "datasetLabel": "Motivational",
@@ -3435,7 +3435,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 89
     },
     "file_hash": "3e04b5f2591eafe18b876c43c64a163b81b4b2deea304a27ab7ccfe6281e9f90",
-    "video_url": "/api/experiment/video/real_reel_20",
+    "video_url": "/reels/reel_20.mp4",
     "title": "Reel #20: Motivational",
     "content_identity": {
       "datasetLabel": "Motivational",
@@ -3615,7 +3615,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 79
     },
     "file_hash": "cfb927b6f8793be01caa8f9c014ed05e0d042fb0767a3ee5be129f5f65c6445f",
-    "video_url": "/api/experiment/video/real_reel_21",
+    "video_url": "/reels/reel_21.mp4",
     "title": "Reel #21: Entertainment",
     "content_identity": {
       "datasetLabel": "Motivational",
@@ -3795,7 +3795,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 91
     },
     "file_hash": "be1914e7d0dded85e5841653c84437cd62cd33b29d58f6f564587b4afb1ebacb",
-    "video_url": "/api/experiment/video/real_reel_22",
+    "video_url": "/reels/reel_22.mp4",
     "title": "Reel #22: Entertainment",
     "content_identity": {
       "datasetLabel": "Motivational",
@@ -3975,7 +3975,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 78
     },
     "file_hash": "812f5afd4f414b1d40ab362c842a70f7960962f187900ddeca65c2dd904b5dcc",
-    "video_url": "/api/experiment/video/real_reel_23",
+    "video_url": "/reels/reel_23.mp4",
     "title": "Reel #23: Entertainment",
     "content_identity": {
       "datasetLabel": "Programming",
@@ -4155,7 +4155,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 87
     },
     "file_hash": "93f2f633a0bae05fc2ff2daae0952aa27ede3174c477970c8e523d40b1639214",
-    "video_url": "/api/experiment/video/real_reel_24",
+    "video_url": "/reels/reel_24.mp4",
     "title": "Reel #24: DSA",
     "content_identity": {
       "datasetLabel": "Programming",
@@ -4335,7 +4335,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 78
     },
     "file_hash": "8918a397120044b16f866b15b0555448623a6eb29ced303d58ff5c428bb71c61",
-    "video_url": "/api/experiment/video/real_reel_25",
+    "video_url": "/reels/reel_25.mp4",
     "title": "Reel #25: Programming",
     "content_identity": {
       "datasetLabel": "Programming",
@@ -4511,7 +4511,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 84
     },
     "file_hash": "6eaa13aa9d7e3148bfe477d337764d7c2b89ed943bfbe5bb67b40dd92cf5554d",
-    "video_url": "/api/experiment/video/real_reel_26",
+    "video_url": "/reels/reel_26.mp4",
     "title": "Reel #26: Entertainment",
     "content_identity": {
       "datasetLabel": "Programming",
@@ -4691,7 +4691,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 81
     },
     "file_hash": "1a49efc6a84fb5f159e5c0730144891dc24c1d87e73b80a1889bdfc52bb66387",
-    "video_url": "/api/experiment/video/real_reel_27",
+    "video_url": "/reels/reel_27.mp4",
     "title": "Reel #27: Entertainment",
     "content_identity": {
       "datasetLabel": "Programming",
@@ -4871,7 +4871,7 @@ export const STATIC_EXPERIMENT_REELS: ExperimentReel[] = [
       "semantic": 81
     },
     "file_hash": "666cc5b67ae55964512917285363e8e00558e193f38d9a18a64f7eae8c7af515",
-    "video_url": "/api/experiment/video/real_reel_28",
+    "video_url": "/reels/reel_28.mp4",
     "title": "Reel #28: DSA",
     "content_identity": {
       "datasetLabel": "Programming",

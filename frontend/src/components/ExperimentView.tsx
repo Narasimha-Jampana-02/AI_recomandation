@@ -110,9 +110,17 @@ export default function ExperimentView() {
 
     if (videoRef.current) {
       videoRef.current.currentTime = 0;
-      videoRef.current.play().catch(() => {
-        setIsMuted(true);
-      });
+      videoRef.current.load();
+      const playPromise = videoRef.current.play();
+      if (playPromise !== undefined) {
+        playPromise
+          .then(() => {
+            setIsVideoLoaded(true);
+          })
+          .catch(() => {
+            setIsMuted(true);
+          });
+      }
     }
 
     updateExperimentInteraction({
@@ -122,13 +130,12 @@ export default function ExperimentView() {
     });
   }, [experimentActiveIndex, activeReel?.id]);
 
-  // Simulated timer progression when video tag is buffering or on static hosting
+  // Fallback timer progression if video fails to play
   useEffect(() => {
     if (!isPlaying || !activeReel) return;
 
     const interval = setInterval(() => {
       if (videoRef.current && isVideoLoaded && !videoLoadError) {
-        // Handled by onTimeUpdate
         return;
       }
 
@@ -416,31 +423,35 @@ export default function ExperimentView() {
               style={{ background: `radial-gradient(circle at 50% 25%, ${activeReel.thumbnail_color || '#3b82f6'}, transparent 70%)` }}
             />
 
-            {/* Real HTML5 Video / Interactive Visualizer */}
+            {/* Real HTML5 Video */}
             <div className="absolute inset-0 z-0 bg-surface-950 flex items-center justify-center overflow-hidden">
               <video
                 ref={videoRef}
+                key={activeReel.id}
                 src={activeReel.video_url}
                 className="w-full h-full object-cover"
                 playsInline
+                autoPlay
                 loop={false}
                 muted={isMuted}
                 onLoadedData={handleVideoLoadedData}
+                onCanPlay={() => setIsVideoLoaded(true)}
+                onPlaying={() => setIsVideoLoaded(true)}
                 onTimeUpdate={handleTimeUpdate}
                 onEnded={handleVideoEnded}
-                onError={() => setVideoLoadError('web_fallback')}
+                onError={() => setVideoLoadError('playback_fallback')}
                 onClick={togglePlayPause}
               />
 
-              {/* Dynamic Multimodal Frame Simulator Overlay (when video tag stream is local) */}
-              {(videoLoadError || !isVideoLoaded) && (
+              {/* Video Loading/Simulation Indicator (Only visible if video cannot be rendered) */}
+              {videoLoadError && (
                 <div
                   onClick={togglePlayPause}
                   className="absolute inset-0 z-10 bg-gradient-to-br from-surface-950 via-surface-900 to-surface-950 p-6 flex flex-col justify-between cursor-pointer"
                 >
                   <div className="flex items-center justify-between">
                     <span className="badge bg-brand-500/20 text-brand-300 border-brand-500/40 text-[10px] font-mono">
-                      Multimodal Stream Streamed
+                      Multimodal Frame Stream
                     </span>
                     <span className="text-[10px] font-mono text-accent-cyan flex items-center gap-1">
                       <Film size={11} /> Temporal Frames Active
