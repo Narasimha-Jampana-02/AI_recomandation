@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "techlens-recommendation",
+    "site": "scrollup-findout",
     "public": "frontend/dist",
     "ignore": [
       "firebase.json",
