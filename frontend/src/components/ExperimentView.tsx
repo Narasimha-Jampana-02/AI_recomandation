@@ -25,15 +25,11 @@ import {
   Cpu,
   FileCode,
   Loader2,
-  AlertCircle,
   Award,
-  Video,
 } from 'lucide-react';
 import { useStore } from '../store/useStore';
 import GroundTruthEvaluationModal from './GroundTruthEvaluationModal';
 import RobustnessModal from './RobustnessModal';
-
-type AnalysisStep = 'LOADING_VIDEO' | 'ANALYZING' | 'EVIDENCE_EXTRACTION' | 'COMPLETE' | 'ERROR';
 
 export default function ExperimentView() {
   const {
@@ -53,9 +49,7 @@ export default function ExperimentView() {
   const [isMuted, setIsMuted] = useState(true);
   const [currentWatchPct, setCurrentWatchPct] = useState(0);
   const [copiedShare, setCopiedShare] = useState(false);
-  const [videoLoadError, setVideoLoadError] = useState<string | null>(null);
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
-  const [analysisStatus, setAnalysisStatus] = useState<AnalysisStep>('COMPLETE');
   const [isEvaluationOpen, setIsEvaluationOpen] = useState(false);
   const [isRobustnessOpen, setIsRobustnessOpen] = useState(false);
 
@@ -104,23 +98,20 @@ export default function ExperimentView() {
     resumeCountRef.current = 0;
     setCurrentWatchPct(0);
     setIsPlaying(true);
-    setVideoLoadError(null);
     setIsVideoLoaded(false);
-    setAnalysisStatus('COMPLETE');
 
     if (videoRef.current) {
       videoRef.current.currentTime = 0;
+      videoRef.current.muted = isMuted;
       videoRef.current.load();
-      const playPromise = videoRef.current.play();
-      if (playPromise !== undefined) {
-        playPromise
-          .then(() => {
-            setIsVideoLoaded(true);
-          })
-          .catch(() => {
-            setIsMuted(true);
-          });
-      }
+      videoRef.current.play().catch(() => {
+        // Fallback to muted autoplay
+        if (videoRef.current) {
+          videoRef.current.muted = true;
+          setIsMuted(true);
+          videoRef.current.play().catch(() => {});
+        }
+      });
     }
 
     updateExperimentInteraction({
@@ -130,44 +121,10 @@ export default function ExperimentView() {
     });
   }, [experimentActiveIndex, activeReel?.id]);
 
-  // Fallback timer progression if video fails to play
-  useEffect(() => {
-    if (!isPlaying || !activeReel) return;
-
-    const interval = setInterval(() => {
-      if (videoRef.current && isVideoLoaded && !videoLoadError) {
-        return;
-      }
-
-      setCurrentWatchPct((prev) => {
-        const next = prev + 3;
-        if (next >= 100) {
-          handleVideoEnded();
-          return 100;
-        }
-        const watchSecs = (Date.now() - startTimeRef.current) / 1000;
-        updateExperimentInteraction({
-          reel_id: activeReel.id,
-          watch_duration: Math.round(watchSecs * 10) / 10,
-          video_duration: activeReel.duration || 45,
-          completion_percentage: Math.max(next, interaction.completion_percentage || 0),
-          completed: next >= 90,
-          closed_at: Date.now(),
-        });
-        return next;
-      });
-    }, 400);
-
-    return () => clearInterval(interval);
-  }, [isPlaying, isVideoLoaded, videoLoadError, activeReel?.id]);
-
   const handleVideoLoadedData = () => {
     setIsVideoLoaded(true);
-    setVideoLoadError(null);
-    if (videoRef.current) {
-      videoRef.current.play().catch(() => {
-        setIsMuted(true);
-      });
+    if (videoRef.current && isPlaying) {
+      videoRef.current.play().catch(() => {});
     }
   };
 
@@ -198,27 +155,43 @@ export default function ExperimentView() {
       completion_percentage: 100,
       closed_at: Date.now(),
     });
+    // Auto loop the video smoothly
+    if (videoRef.current) {
+      videoRef.current.currentTime = 0;
+      videoRef.current.play().catch(() => {});
+    }
   };
 
   const togglePlayPause = () => {
     if (!activeReel) return;
-    if (isPlaying) {
-      if (videoRef.current) videoRef.current.pause();
-      pauseCountRef.current += 1;
-      setIsPlaying(false);
-      updateExperimentInteraction({
-        reel_id: activeReel.id,
-        pause_count: pauseCountRef.current,
-      });
+    if (videoRef.current) {
+      if (videoRef.current.paused) {
+        videoRef.current.play().catch(() => {});
+        resumeCountRef.current += 1;
+        setIsPlaying(true);
+        updateExperimentInteraction({
+          reel_id: activeReel.id,
+          resume_count: resumeCountRef.current,
+        });
+      } else {
+        videoRef.current.pause();
+        pauseCountRef.current += 1;
+        setIsPlaying(false);
+        updateExperimentInteraction({
+          reel_id: activeReel.id,
+          pause_count: pauseCountRef.current,
+        });
+      }
     } else {
-      if (videoRef.current) videoRef.current.play().catch(() => {});
-      resumeCountRef.current += 1;
-      setIsPlaying(true);
-      updateExperimentInteraction({
-        reel_id: activeReel.id,
-        resume_count: resumeCountRef.current,
-      });
+      setIsPlaying(!isPlaying);
     }
+  };
+
+  const toggleMute = () => {
+    if (videoRef.current) {
+      videoRef.current.muted = !isMuted;
+    }
+    setIsMuted(!isMuted);
   };
 
   const handleLike = () => {
@@ -307,12 +280,12 @@ export default function ExperimentView() {
       } else if (e.key === 'r' || e.key === 'R') {
         handleReplay();
       } else if (e.key === 'm' || e.key === 'M') {
-        setIsMuted((m) => !m);
+        toggleMute();
       }
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [experimentActiveIndex, activeReel?.id, isPlaying, interaction.liked, interaction.saved]);
+  }, [experimentActiveIndex, activeReel?.id, isPlaying, isMuted, interaction.liked, interaction.saved]);
 
   const lastWheelTime = useRef<number>(0);
   const handleWheel = (e: React.WheelEvent) => {
@@ -416,79 +389,42 @@ export default function ExperimentView() {
 
         {/* ── LEFT: VERTICAL VIDEO PLAYER CONTAINER ── */}
         <div className="md:col-span-5 flex justify-center">
-          <div className="relative w-full max-w-sm h-[580px] rounded-3xl bg-surface-950 border border-surface-800 shadow-2xl overflow-hidden flex flex-col justify-between">
+          <div className="relative w-full max-w-sm h-[580px] rounded-3xl bg-surface-950 border border-surface-800 shadow-2xl overflow-hidden flex flex-col justify-between group">
             {/* Ambient Glow */}
             <div
               className="absolute inset-0 opacity-20 pointer-events-none transition-all duration-700"
               style={{ background: `radial-gradient(circle at 50% 25%, ${activeReel.thumbnail_color || '#3b82f6'}, transparent 70%)` }}
             />
 
-            {/* Real HTML5 Video */}
-            <div className="absolute inset-0 z-0 bg-surface-950 flex items-center justify-center overflow-hidden">
+            {/* Real HTML5 Video Player */}
+            <div
+              onClick={togglePlayPause}
+              className="absolute inset-0 z-0 bg-surface-950 flex items-center justify-center overflow-hidden cursor-pointer"
+            >
               <video
                 ref={videoRef}
                 key={activeReel.id}
-                src={activeReel.video_url}
                 className="w-full h-full object-cover"
                 playsInline
                 autoPlay
-                loop={false}
                 muted={isMuted}
                 onLoadedData={handleVideoLoadedData}
                 onCanPlay={() => setIsVideoLoaded(true)}
-                onPlaying={() => setIsVideoLoaded(true)}
+                onPlaying={() => {
+                  setIsVideoLoaded(true);
+                  setIsPlaying(true);
+                }}
+                onPause={() => setIsPlaying(false)}
                 onTimeUpdate={handleTimeUpdate}
                 onEnded={handleVideoEnded}
-                onError={() => setVideoLoadError('playback_fallback')}
-                onClick={togglePlayPause}
-              />
-
-              {/* Video Loading/Simulation Indicator (Only visible if video cannot be rendered) */}
-              {videoLoadError && (
-                <div
-                  onClick={togglePlayPause}
-                  className="absolute inset-0 z-10 bg-gradient-to-br from-surface-950 via-surface-900 to-surface-950 p-6 flex flex-col justify-between cursor-pointer"
-                >
-                  <div className="flex items-center justify-between">
-                    <span className="badge bg-brand-500/20 text-brand-300 border-brand-500/40 text-[10px] font-mono">
-                      Multimodal Frame Stream
-                    </span>
-                    <span className="text-[10px] font-mono text-accent-cyan flex items-center gap-1">
-                      <Film size={11} /> Temporal Frames Active
-                    </span>
-                  </div>
-
-                  <div className="space-y-3 text-center my-auto">
-                    <div className="w-16 h-16 rounded-2xl mx-auto bg-brand-500/20 border border-brand-500/40 flex items-center justify-center shadow-xl">
-                      <Brain size={28} className="text-accent-cyan animate-pulse" />
-                    </div>
-                    <div>
-                      <h4 className="text-sm font-bold text-white mb-1">{activeReel.title}</h4>
-                      <p className="text-xs text-surface-400 font-mono line-clamp-2">
-                        {activeReel.generated_description || activeReel.description}
-                      </p>
-                    </div>
-                    <div className="flex items-center justify-center gap-1 text-[10px] text-brand-300 font-mono">
-                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
-                      Live Interaction Telemetry Active
-                    </div>
-                  </div>
-
-                  <div className="p-2.5 rounded-xl bg-surface-950/80 border border-surface-800 text-[10px] font-mono space-y-1">
-                    <div className="flex justify-between text-surface-400">
-                      <span>Timeline: {currentWatchPct}%</span>
-                      <span>Duration: {activeReel.duration}s</span>
-                    </div>
-                    <div className="h-1 rounded-full bg-surface-800 overflow-hidden">
-                      <div className="h-full bg-brand-400" style={{ width: `${currentWatchPct}%` }} />
-                    </div>
-                  </div>
-                </div>
-              )}
+              >
+                <source src={activeReel.video_url} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
 
             {/* Top Video Header */}
-            <div className="relative z-10 p-3 bg-gradient-to-b from-surface-950/90 via-surface-950/40 to-transparent flex items-center justify-between">
+            <div className="relative z-10 p-3 bg-gradient-to-b from-surface-950/90 via-surface-950/40 to-transparent flex items-center justify-between pointer-events-auto">
               <div className="flex items-center gap-1.5">
                 <span className="badge bg-surface-900/90 text-surface-200 border-surface-700 text-[10px] font-mono backdrop-blur-md">
                   {experimentActiveIndex + 1 < 10 ? `0${experimentActiveIndex + 1}` : experimentActiveIndex + 1} / {experimentReels.length || 28}
@@ -507,34 +443,40 @@ export default function ExperimentView() {
 
               <div className="flex items-center gap-1.5">
                 <button
-                  onClick={() => setIsMuted((m) => !m)}
-                  className="p-1.5 rounded-full bg-surface-900/80 text-surface-300 hover:text-white border border-surface-700 backdrop-blur-md"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    toggleMute();
+                  }}
+                  className="p-1.5 rounded-full bg-surface-900/80 text-surface-300 hover:text-white border border-surface-700 backdrop-blur-md transition-all hover:scale-105"
                   title="Toggle Mute (M)"
                 >
-                  {isMuted ? <VolumeX size={13} /> : <Volume2 size={13} />}
+                  {isMuted ? <VolumeX size={13} /> : <Volume2 size={13} className="text-emerald-400" />}
                 </button>
-                <span className="text-xs font-mono font-bold text-accent-cyan bg-surface-900/80 px-2 py-0.5 rounded-md border border-surface-800">
+                <span className="text-xs font-mono font-bold text-accent-cyan bg-surface-900/80 px-2 py-0.5 rounded-md border border-surface-800 backdrop-blur-md">
                   {currentWatchPct}%
                 </span>
               </div>
             </div>
 
-            {/* Play/Pause Center Indicator */}
+            {/* Play/Pause Center Indicator (shows when paused) */}
             {!isPlaying && (
               <div
                 onClick={togglePlayPause}
-                className="absolute inset-0 z-10 bg-surface-950/40 backdrop-blur-xs flex items-center justify-center cursor-pointer"
+                className="absolute inset-0 z-10 bg-surface-950/30 backdrop-blur-2xs flex items-center justify-center cursor-pointer pointer-events-auto"
               >
-                <div className="w-16 h-16 rounded-full bg-brand-500/90 text-white flex items-center justify-center shadow-2xl">
+                <div className="w-16 h-16 rounded-full bg-brand-500/90 text-white flex items-center justify-center shadow-2xl transition-transform hover:scale-110">
                   <Play size={24} className="ml-1" />
                 </div>
               </div>
             )}
 
             {/* Right Interaction Icons */}
-            <div className="absolute right-3 bottom-20 z-20 flex flex-col items-center gap-2.5">
+            <div className="absolute right-3 bottom-20 z-20 flex flex-col items-center gap-2.5 pointer-events-auto">
               <button
-                onClick={handleLike}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  handleLike();
+                }}
                 className={`p-2.5 rounded-full backdrop-blur-md transition-all shadow-xl flex flex-col items-center ${
                   interaction.liked
                     ? 'bg-rose-500 text-white scale-110'
@@ -546,7 +488,10 @@ export default function ExperimentView() {
               </button>
 
               <button
-                onClick={handleSave}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  handleSave();
+                }}
                 className={`p-2.5 rounded-full backdrop-blur-md transition-all shadow-xl flex flex-col items-center ${
                   interaction.saved
                     ? 'bg-amber-500 text-surface-950 scale-110 font-bold'
@@ -558,7 +503,10 @@ export default function ExperimentView() {
               </button>
 
               <button
-                onClick={handleReplay}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  handleReplay();
+                }}
                 className={`p-2.5 rounded-full backdrop-blur-md transition-all shadow-xl flex flex-col items-center ${
                   interaction.replayed
                     ? 'bg-emerald-500 text-surface-950 font-bold'
@@ -571,7 +519,7 @@ export default function ExperimentView() {
             </div>
 
             {/* Bottom Metadata & Controls */}
-            <div className="relative z-10 p-3.5 bg-gradient-to-t from-surface-950 via-surface-950/80 to-transparent space-y-2">
+            <div className="relative z-10 p-3.5 bg-gradient-to-t from-surface-950 via-surface-950/80 to-transparent space-y-2 pointer-events-auto">
               <div className="pr-10">
                 <span className="text-[10px] font-mono text-brand-400 block uppercase tracking-wider">
                   {activeReel.subtopic || datasetLabel}
@@ -590,7 +538,10 @@ export default function ExperimentView() {
 
               <div className="flex items-center justify-between text-xs pt-1">
                 <button
-                  onClick={togglePlayPause}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    togglePlayPause();
+                  }}
                   className="p-1.5 rounded-lg bg-surface-900/80 text-surface-300 hover:text-white border border-surface-800"
                 >
                   {isPlaying ? <Pause size={12} /> : <Play size={12} />}
@@ -598,14 +549,20 @@ export default function ExperimentView() {
 
                 <div className="flex items-center gap-1.5">
                   <button
-                    onClick={handleSkipPrev}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleSkipPrev();
+                    }}
                     disabled={experimentActiveIndex === 0}
                     className="p-1.5 rounded-lg bg-surface-900/80 text-surface-300 hover:text-white border border-surface-800 disabled:opacity-30 flex items-center gap-1 text-[11px]"
                   >
                     <ChevronUp size={13} /> Prev
                   </button>
                   <button
-                    onClick={handleSkipNext}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleSkipNext();
+                    }}
                     disabled={experimentActiveIndex === experimentReels.length - 1}
                     className="p-1.5 rounded-lg bg-surface-900/80 text-surface-300 hover:text-white border border-surface-800 disabled:opacity-30 flex items-center gap-1 text-[11px]"
                   >
